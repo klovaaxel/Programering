@@ -11,3 +11,16 @@
 /home/axel/Documents/Hello World/obj/Debug/netcoreapp3.1/Hello World.dll
 /home/axel/Documents/Hello World/obj/Debug/netcoreapp3.1/Hello World.pdb
 /home/axel/Documents/Hello World/obj/Debug/netcoreapp3.1/Hello World.genruntimeconfig.cache
+/home/axel/Documents/Programering/Hello World/bin/Debug/netcoreapp3.1/Hello World
+/home/axel/Documents/Programering/Hello World/bin/Debug/netcoreapp3.1/Hello World.deps.json
+/home/axel/Documents/Programering/Hello World/bin/Debug/netcoreapp3.1/Hello World.runtimeconfig.json
+/home/axel/Documents/Programering/Hello World/bin/Debug/netcoreapp3.1/Hello World.runtimeconfig.dev.json
+/home/axel/Documents/Programering/Hello World/bin/Debug/netcoreapp3.1/Hello World.dll
+/home/axel/Documents/Programering/Hello World/bin/Debug/netcoreapp3.1/Hello World.pdb
+/home/axel/Documents/Programering/Hello World/obj/Debug/netcoreapp3.1/Hello World.csprojAssemblyReference.cache
+/home/axel/Documents/Programering/Hello World/obj/Debug/netcoreapp3.1/Hello World.AssemblyInfoInputs.cache
+/home/axel/Documents/Programering/Hello World/obj/Debug/netcoreapp3.1/Hello World.AssemblyInfo.cs
+/home/axel/Documents/Programering/Hello World/obj/Debug/netcoreapp3.1/Hello World.csproj.CoreCompileInputs.cache
+/home/axel/Documents/Programering/Hello World/obj/Debug/netcoreapp3.1/Hello World.dll
+/home/axel/Documents/Programering/Hello World/obj/Debug/netcoreapp3.1/Hello World.pdb
+/home/axel/Documents/Programering/Hello World/obj/Debug/netcoreapp3.1/Hello World.genruntimeconfig.cache
