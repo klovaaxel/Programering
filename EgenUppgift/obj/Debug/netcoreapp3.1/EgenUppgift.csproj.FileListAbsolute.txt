@@ -1,0 +1,13 @@
+/home/axel/Documents/Programering/EgenUppgift/obj/Debug/netcoreapp3.1/EgenUppgift.csprojAssemblyReference.cache
+/home/axel/Documents/Programering/EgenUppgift/obj/Debug/netcoreapp3.1/EgenUppgift.AssemblyInfoInputs.cache
+/home/axel/Documents/Programering/EgenUppgift/obj/Debug/netcoreapp3.1/EgenUppgift.AssemblyInfo.cs
+/home/axel/Documents/Programering/EgenUppgift/obj/Debug/netcoreapp3.1/EgenUppgift.csproj.CoreCompileInputs.cache
+/home/axel/Documents/Programering/EgenUppgift/bin/Debug/netcoreapp3.1/EgenUppgift
+/home/axel/Documents/Programering/EgenUppgift/bin/Debug/netcoreapp3.1/EgenUppgift.deps.json
+/home/axel/Documents/Programering/EgenUppgift/bin/Debug/netcoreapp3.1/EgenUppgift.runtimeconfig.json
+/home/axel/Documents/Programering/EgenUppgift/bin/Debug/netcoreapp3.1/EgenUppgift.runtimeconfig.dev.json
+/home/axel/Documents/Programering/EgenUppgift/bin/Debug/netcoreapp3.1/EgenUppgift.dll
+/home/axel/Documents/Programering/EgenUppgift/bin/Debug/netcoreapp3.1/EgenUppgift.pdb
+/home/axel/Documents/Programering/EgenUppgift/obj/Debug/netcoreapp3.1/EgenUppgift.dll
+/home/axel/Documents/Programering/EgenUppgift/obj/Debug/netcoreapp3.1/EgenUppgift.pdb
+/home/axel/Documents/Programering/EgenUppgift/obj/Debug/netcoreapp3.1/EgenUppgift.genruntimeconfig.cache

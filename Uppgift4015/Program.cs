@@ -7,7 +7,7 @@ namespace Uppgift4015
     {
     static void Main(string[] args)
       {
-          // kör koden för uppgift 1A
+          /*// kör koden för uppgift 1A
           Uppgift_1A();
 
           // kör koden för uppgift 1B
@@ -30,6 +30,7 @@ namespace Uppgift4015
           Uppgift_9A();
           Uppgift_9B12();
           Uppgift_9B3();
+          */
           Uppgift_10A();
 
 
