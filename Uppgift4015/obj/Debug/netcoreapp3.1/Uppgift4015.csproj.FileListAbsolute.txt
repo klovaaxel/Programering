@@ -1,0 +1,13 @@
+/home/axel/Documents/Programering/Uppgift4015/bin/Debug/netcoreapp3.1/Uppgift4015
+/home/axel/Documents/Programering/Uppgift4015/bin/Debug/netcoreapp3.1/Uppgift4015.deps.json
+/home/axel/Documents/Programering/Uppgift4015/bin/Debug/netcoreapp3.1/Uppgift4015.runtimeconfig.json
+/home/axel/Documents/Programering/Uppgift4015/bin/Debug/netcoreapp3.1/Uppgift4015.runtimeconfig.dev.json
+/home/axel/Documents/Programering/Uppgift4015/bin/Debug/netcoreapp3.1/Uppgift4015.dll
+/home/axel/Documents/Programering/Uppgift4015/bin/Debug/netcoreapp3.1/Uppgift4015.pdb
+/home/axel/Documents/Programering/Uppgift4015/obj/Debug/netcoreapp3.1/Uppgift4015.csprojAssemblyReference.cache
+/home/axel/Documents/Programering/Uppgift4015/obj/Debug/netcoreapp3.1/Uppgift4015.AssemblyInfoInputs.cache
+/home/axel/Documents/Programering/Uppgift4015/obj/Debug/netcoreapp3.1/Uppgift4015.AssemblyInfo.cs
+/home/axel/Documents/Programering/Uppgift4015/obj/Debug/netcoreapp3.1/Uppgift4015.csproj.CoreCompileInputs.cache
+/home/axel/Documents/Programering/Uppgift4015/obj/Debug/netcoreapp3.1/Uppgift4015.dll
+/home/axel/Documents/Programering/Uppgift4015/obj/Debug/netcoreapp3.1/Uppgift4015.pdb
+/home/axel/Documents/Programering/Uppgift4015/obj/Debug/netcoreapp3.1/Uppgift4015.genruntimeconfig.cache
