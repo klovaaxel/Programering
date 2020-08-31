@@ -13,16 +13,24 @@ namespace EgenUppgift
         static bool ballDir = true;
 
         static Random randomGenerator = new Random();
-        static void Main(string[] args)
+        static void Main()
         {
-           
-            drawArena();
-            drawPlayerOne(5);
-            drawBall(ballPosX, ballPosY);
             Console.CursorVisible = false;
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
-            
+
+            playerOnePosY = 5;
+            ballPosX = 5;
+            ballPosY = 5;
+            points = 0;
+            ballDir = true;
+
+            gameStart();
+
+            drawArena();
+            drawPlayerOne(5);
+            drawBall(ballPosX, ballPosY);
+
             while (true)
             {
                 if (Console.KeyAvailable)
@@ -42,7 +50,9 @@ namespace EgenUppgift
                 drawArena();
                 drawPlayerOne(playerOnePosY);
                 moveBall();
-                Thread.Sleep (1000 - points * 200);
+                
+                //Thread.Sleep((2 >> points) *1000);
+                Thread.Sleep(100);
 
             }
             
@@ -59,20 +69,25 @@ namespace EgenUppgift
         {
             Console.Clear();
             drawArena();
-            PrintAtPosition(2, y, "|");
+            PrintAtPosition(2, y, "▐");
         }
 
         static void drawBall(int x, int y){
-            PrintAtPosition(x, y, "*");
+            PrintAtPosition(x, y, "■");
         }
 
         static void drawArena()
         {
             Console.SetCursorPosition(0, 0);
-            Console.WriteLine("|----------" + points + "----------|");
+            if (points < 10)
+            {
+                Console.WriteLine("┏Shitty Pong━━━━━ " + points + " ━━━┓");
+            }else{
+                Console.WriteLine("┏Shitty Pong━━━━━ " + points + " ━━┓");
+            }
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("|                     |");
+                Console.WriteLine("┃                      ┃");
             }
             MoveText();
 
@@ -80,7 +95,7 @@ namespace EgenUppgift
         
         static void MoveText()
         {
-            PrintAtPosition(0, 10, "|---------------------|");
+            PrintAtPosition(0, 10, "┗━━━━━━━━━━━━━━━━━━━━━━┛");
         }
 
         static void movePlayerOneDown(){
@@ -101,18 +116,27 @@ namespace EgenUppgift
             drawBall(ballPosX, ballPosY);
             if (ballPosX >= 21)
             {
-                ballPosY += randomGenerator.Next(-1, 2);
+                if (ballPosY == 9){
+                    ballPosY += randomGenerator.Next(-1, 1);
+                }else if(ballPosY == 2){
+                    ballPosY += randomGenerator.Next(0, 2);
+                }else{
+                    ballPosY += randomGenerator.Next(-1, 2);
+                }
                 ballDir = true;
-            }else if (ballPosX <= 3 && playerOnePosY == 5){
+            }else if (ballPosX <= 3 && playerOnePosY == ballPosY){
                 points++;
-                ballPosY += randomGenerator.Next(-1, 2);
+                if (ballPosY == 9){
+                    ballPosY += randomGenerator.Next(-1, 1);
+                }else if(ballPosY == 2){
+                    ballPosY += randomGenerator.Next(0, 2);
+                }else{
+                    ballPosY += randomGenerator.Next(-1, 2);
+                }
                 ballDir = false;
-            }else if (ballPosX < 3 && playerOnePosY != 5){
-                Console.Clear();
-                PrintAtPosition(10, 5, "You Lost");
-                PrintAtPosition(10, 6, "Score: " + points);
-
-
+            }else if (ballPosX < 3 && playerOnePosY != ballPosY){
+                endGame();
+                
             }
 
             if (ballDir == true)
@@ -120,8 +144,67 @@ namespace EgenUppgift
                 ballPosX--;
             }else{
                 ballPosX++;
+            }   
+        }
+        static void endGame(){
+            Console.Clear();
+            PrintAtPosition(10, 5, "You Lost");
+            PrintAtPosition(10, 6, "Score: " + points);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            Console.WriteLine("Press 'R' to restart.");
+            while (Console.ReadKey().Key != ConsoleKey.R)
+            {
+                
             }
-            
+            Main();
+        }
+
+        static void gameStart(){
+            Console.Clear();
+            Console.SetCursorPosition(5, 3);
+            Console.WriteLine("   _____ ");
+            Console.SetCursorPosition(5, 4);
+            Console.WriteLine("  |___ / ");
+            Console.SetCursorPosition(5, 5);
+            Console.WriteLine("    |_ \\ ");
+            Console.SetCursorPosition(5, 6);
+            Console.WriteLine("   ___) |");
+            Console.SetCursorPosition(5, 7);
+            Console.WriteLine("  |____/ ");
+            Thread.Sleep(1000);
+            Console.Clear();
+            Console.SetCursorPosition(5, 3);
+            Console.WriteLine("   ____  ");
+            Console.SetCursorPosition(5, 4);
+            Console.WriteLine("  |___ \\ ");
+            Console.SetCursorPosition(5, 5);
+            Console.WriteLine("    __) |");
+            Console.SetCursorPosition(5, 6);
+            Console.WriteLine("   / __/");
+            Console.SetCursorPosition(5, 7);
+            Console.WriteLine("  |_____|");
+            Thread.Sleep(1000);
+            Console.Clear();
+            Console.SetCursorPosition(6, 3);
+            Console.WriteLine("   _ ");
+            Console.SetCursorPosition(6, 4);
+            Console.WriteLine("  / |");
+            Console.SetCursorPosition(6, 5);
+            Console.WriteLine("  | |");
+            Console.SetCursorPosition(6, 6);
+            Console.WriteLine("  | |");
+            Console.SetCursorPosition(6, 7);
+            Console.WriteLine("  |_|");
+            Thread.Sleep(1000);
+
+
         }
     }
 }
+
+
+
+      
