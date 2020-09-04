@@ -1,0 +1,26 @@
+/home/axel/Documents/Programering/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.csprojAssemblyReference.cache
+/home/axel/Documents/Programering/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.AssemblyInfoInputs.cache
+/home/axel/Documents/Programering/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.AssemblyInfo.cs
+/home/axel/Documents/Programering/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.csproj.CoreCompileInputs.cache
+/home/axel/Documents/Programering/Fragesport/bin/Debug/netcoreapp3.1/Fragesport
+/home/axel/Documents/Programering/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.deps.json
+/home/axel/Documents/Programering/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.runtimeconfig.json
+/home/axel/Documents/Programering/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.runtimeconfig.dev.json
+/home/axel/Documents/Programering/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.dll
+/home/axel/Documents/Programering/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.pdb
+/home/axel/Documents/Programering/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.dll
+/home/axel/Documents/Programering/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.pdb
+/home/axel/Documents/Programering/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.genruntimeconfig.cache
+/home/axel/Documents/Programering/Fragesport class/obj/Debug/netcoreapp3.1/Fragesport.csprojAssemblyReference.cache
+/home/axel/Documents/Programering/Fragesport class/obj/Debug/netcoreapp3.1/Fragesport.AssemblyInfoInputs.cache
+/home/axel/Documents/Programering/Fragesport class/obj/Debug/netcoreapp3.1/Fragesport.AssemblyInfo.cs
+/home/axel/Documents/Programering/Fragesport class/obj/Debug/netcoreapp3.1/Fragesport.csproj.CoreCompileInputs.cache
+/home/axel/Documents/Programering/Fragesport class/obj/Debug/netcoreapp3.1/Fragesport.dll
+/home/axel/Documents/Programering/Fragesport class/obj/Debug/netcoreapp3.1/Fragesport.pdb
+/home/axel/Documents/Programering/Fragesport class/bin/Debug/netcoreapp3.1/Fragesport
+/home/axel/Documents/Programering/Fragesport class/bin/Debug/netcoreapp3.1/Fragesport.deps.json
+/home/axel/Documents/Programering/Fragesport class/bin/Debug/netcoreapp3.1/Fragesport.runtimeconfig.json
+/home/axel/Documents/Programering/Fragesport class/bin/Debug/netcoreapp3.1/Fragesport.runtimeconfig.dev.json
+/home/axel/Documents/Programering/Fragesport class/bin/Debug/netcoreapp3.1/Fragesport.dll
+/home/axel/Documents/Programering/Fragesport class/bin/Debug/netcoreapp3.1/Fragesport.pdb
+/home/axel/Documents/Programering/Fragesport class/obj/Debug/netcoreapp3.1/Fragesport.genruntimeconfig.cache

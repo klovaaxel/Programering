@@ -52,7 +52,7 @@ namespace EgenUppgift
                 moveBall();
                 
                 //Thread.Sleep((2 >> points) *1000);
-                Thread.Sleep(100);
+                Thread.Sleep(100 - ((points << 2)));
 
             }
             
@@ -199,12 +199,6 @@ namespace EgenUppgift
             Console.SetCursorPosition(6, 7);
             Console.WriteLine("  |_|");
             Thread.Sleep(1000);
-
-
         }
     }
 }
-
-
-
-      
