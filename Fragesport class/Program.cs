@@ -1,26 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Fragesport
 {
     class Program
     {
-        static Question myQuestion;
         static int score = 0;
-        //static String[][] questions = {question1, question2, question3};
         static void Main(string[] args)
         {
-            myQuestion = new Question("What animal causes the most power outages in the U.S.?", "Squirrels", "Turtles", "Bears", "Snakes", "a");
-            var question10 = new Question("What animal causes the most power outages in the U.S.?", "Squirrels", "Turtles", "Bears", "Snakes", "a");
-            
+
+            List<QuestionCard> questions = new List<QuestionCard>();
+
+            questions.Add(new QuestionCard("What animal causes the most power outages in the U.S.?", "Squirrels", "Turtles", "Bears", "Snakes", "a"));
+            questions.Add(new QuestionCard("What is the inventor of the pringels can burried in?","Casket","Pringels Can","A big box","His house", "b"));
+            questions.Add(new QuestionCard("What was spider webs used as in ancient times?","Clothes","Cutlary","Bandages","Food","c"));
+
+            foreach (var item in questions)
+            {
+                AskQuestion(item);
+            }
 
             Console.WriteLine("your score is " + score);
-
-
-
         }
-
-        static void askQuestion(Question Q){
-            Console.WriteLine(Q.question);
+        static void AskQuestion(QuestionCard Q)
+        {
+            Console.WriteLine(Q.Question);
 
             Console.WriteLine("");
 
@@ -32,7 +36,7 @@ namespace Fragesport
             string A = Console.ReadLine();
             Console.Clear();
             
-            if (A == Q.answer)
+            if (A.ToLower() == Q.answer)
             {
                 Console.WriteLine("You Guessed correctly!!");
                 score++;
@@ -46,7 +50,6 @@ namespace Fragesport
                 
             }
             Console.Clear();
-
         }
     }
 }

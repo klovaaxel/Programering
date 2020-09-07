@@ -2,18 +2,25 @@ using System;
 
 namespace Fragesport
 {
-    class Question
+    class QuestionCard
     {
         private String question;
-        private String a;
-        private String b; 
-        private String c;
-        private String d;
-        private String answer;
-
-        public Question(String pq, String pa, String pb, String pc, String pd, String pAnswer)
+        public String Question 
         {
-          question = pq;
+          get
+          {
+            return question;
+          }
+        }
+        public String a {get;}
+        public String b {get;}
+        public String c {get;}
+        public String d {get;}
+        public String answer {get;}
+
+        public QuestionCard(String pQuestion, String pa, String pb, String pc, String pd, String pAnswer)
+        {
+          question = pQuestion;
           a = pa;
           b = pb;
           c = pc;
