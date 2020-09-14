@@ -6,15 +6,17 @@ namespace _4030_intro_arv_animal{
   {
     static void Main(string[] args)
     {
-      Cat minKatt = new Cat(5);
-      minKatt.Act();
+        String input = Console.ReadLine();
+        int inputInt = Convert.ToInt32(input);
+        Cat myZoo = new Cat(inputInt);
+        myZoo.Act();
     }
 
   }
 
   class Cat
   {
-    private int age {get;}
+    public int age {get;}
 
     public Cat(int publicAge)
     {
@@ -32,7 +34,7 @@ namespace _4030_intro_arv_animal{
 
   class Dog
   {
-    private int age {get;}
+    public int age { get;}
 
     public Dog(int publicAge)
     {
@@ -50,12 +52,39 @@ namespace _4030_intro_arv_animal{
 
   class Zoo
   {
-    private Object cats;
-    private Object dogs;
+    List<Cat> Cats = new List<Cat>();
+    List<Dog> Dogs = new List<Dog>();
 
     public Zoo()
     {
-      
-    }  
-  }   
+        Cats.Add(new Cat(5));
+        Cats.Add(new Cat(2));
+        Cats.Add(new Cat(3));
+
+        Dogs.Add(new Dog(2));
+        Dogs.Add(new Dog(3));
+
+
+
+    }
+
+    public void Act()
+    {
+        foreach (var cat in Cats) {
+            for (int i = 0; i < cat.age; i++)
+            {
+                Console.Write("mjau, ");
+            }
+            Console.WriteLine("");
+        }
+        foreach (var dog in Dogs) {
+            for (int i = 0; i < dog.age; i++)
+            {
+                Console.Write("vov, ");
+            }
+            Console.WriteLine("");
+        }
+    }
+  }
+
 }

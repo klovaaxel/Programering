@@ -11,3 +11,16 @@
 /home/axel/Documents/Programering/4030_intro_arv_animal/obj/Debug/netcoreapp3.1/4030_intro_arv_animal.dll
 /home/axel/Documents/Programering/4030_intro_arv_animal/obj/Debug/netcoreapp3.1/4030_intro_arv_animal.pdb
 /home/axel/Documents/Programering/4030_intro_arv_animal/obj/Debug/netcoreapp3.1/4030_intro_arv_animal.genruntimeconfig.cache
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\bin\Debug\netcoreapp3.1\4030_intro_arv_animal.exe
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\bin\Debug\netcoreapp3.1\4030_intro_arv_animal.deps.json
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\bin\Debug\netcoreapp3.1\4030_intro_arv_animal.runtimeconfig.json
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\bin\Debug\netcoreapp3.1\4030_intro_arv_animal.runtimeconfig.dev.json
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\bin\Debug\netcoreapp3.1\4030_intro_arv_animal.dll
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\bin\Debug\netcoreapp3.1\4030_intro_arv_animal.pdb
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\obj\Debug\netcoreapp3.1\4030_intro_arv_animal.csprojAssemblyReference.cache
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\obj\Debug\netcoreapp3.1\4030_intro_arv_animal.AssemblyInfoInputs.cache
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\obj\Debug\netcoreapp3.1\4030_intro_arv_animal.AssemblyInfo.cs
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\obj\Debug\netcoreapp3.1\4030_intro_arv_animal.csproj.CoreCompileInputs.cache
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\obj\Debug\netcoreapp3.1\4030_intro_arv_animal.dll
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\obj\Debug\netcoreapp3.1\4030_intro_arv_animal.pdb
+C:\Users\vm\Source\Repos\Programering\4030_intro_arv_animal\obj\Debug\netcoreapp3.1\4030_intro_arv_animal.genruntimeconfig.cache
