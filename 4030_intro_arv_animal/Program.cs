@@ -6,9 +6,7 @@ namespace _4030_intro_arv_animal{
   {
     static void Main(string[] args)
     {
-        String input = Console.ReadLine();
-        int inputInt = Convert.ToInt32(input);
-        Cat myZoo = new Cat(inputInt);
+        Zoo myZoo = new Zoo();
         myZoo.Act();
     }
 
@@ -49,6 +47,7 @@ namespace _4030_intro_arv_animal{
       }
     }
   }
+
 
   class Zoo
   {
