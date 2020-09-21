@@ -11,6 +11,8 @@ namespace _4040
             Database myData = new Database();
             myData.Add(new Cd("Hello", "Joakim"));
             myData.Add(new Dvd("olleH", "Anton"));
+            myData.Add(new Book("Hej", "Anton och Joakim"));
+
             myData.PrintDatabase();
         }
     }
@@ -51,6 +53,16 @@ namespace _4040
             name = aName;
             author = aAuthor;
             type = "DVD";
+        }
+    }
+
+    class Book : Sak
+    {
+        public Book(String aName, String aAuthor)
+        {
+            name = aName;
+            author = aAuthor;
+            type = "Book";
         }
     }
 
