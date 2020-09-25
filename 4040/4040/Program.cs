@@ -20,49 +20,60 @@ namespace _4040
     class Sak {
         protected String name;
         protected String author;
-        protected String type;
 
         public String GetName() 
         {
             return name;
         }
-        public String GetAuthor() 
-        {
-            return author;
+
+        public virtual void Print() 
+        { 
+
         }
-        public String ReturnType()
-        {
-            return type;
-        }
+   
     }
 
     class Cd : Sak
     {
+        private String Artist;
         public Cd(String aName, String aAuthor) 
         {
             name = aName;
-            author = aAuthor;
-            type = "CD";
+            Artist = aAuthor;
         }
+        public override void Print()
+        {
+            Console.Write("Artist: " + Artist + ", ");
+        }
+
     }
 
     class Dvd : Sak
     {
+        private String Regissor;
+
         public Dvd(String aName, String aAuthor)
         {
             name = aName;
-            author = aAuthor;
-            type = "DVD";
+            Regissor = aAuthor;
+        }
+        public override void Print()
+        {
+            Console.Write("Regissor: " + Regissor + ", ");
         }
     }
 
     class Book : Sak
     {
+        private String forfattare;
         public Book(String aName, String aAuthor)
         {
             name = aName;
-            author = aAuthor;
-            type = "Book";
+            forfattare = aAuthor;
+        }
+        public override void Print() 
+        {
+            Console.Write("Forfattare: " + forfattare + ", ");
         }
     }
 
@@ -78,10 +89,10 @@ namespace _4040
         public void PrintDatabase() 
         {
             foreach (var item in saker) {
-                
-                Console.Write(item.ReturnType() + ", ");
+
+                Console.Write(item.GetType().Name + ", ");
                 Console.Write("Name: " + item.GetName() + ", ");
-                Console.Write("Author: " + item.GetAuthor() + ".");
+                item.Print();
                 Console.WriteLine();
             }
         }
