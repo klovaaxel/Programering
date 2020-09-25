@@ -19,7 +19,6 @@ namespace _4040
 
     class Sak {
         protected String name;
-        protected String author;
 
         public String GetName() 
         {
@@ -35,31 +34,31 @@ namespace _4040
 
     class Cd : Sak
     {
-        private String Artist;
+        private String artist;
         public Cd(String aName, String aAuthor) 
         {
             name = aName;
-            Artist = aAuthor;
+            artist = aAuthor;
         }
         public override void Print()
         {
-            Console.Write("Artist: " + Artist + ", ");
+            Console.Write("Artist: " + artist + ", ");
         }
 
     }
 
     class Dvd : Sak
     {
-        private String Regissor;
+        private String regissor;
 
         public Dvd(String aName, String aAuthor)
         {
             name = aName;
-            Regissor = aAuthor;
+            regissor = aAuthor;
         }
         public override void Print()
         {
-            Console.Write("Regissor: " + Regissor + ", ");
+            Console.Write("Regissor: " + regissor + ", ");
         }
     }
 
