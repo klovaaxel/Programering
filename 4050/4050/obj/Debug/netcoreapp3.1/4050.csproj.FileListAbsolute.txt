@@ -1,0 +1,13 @@
+C:\Users\vm\source\repos\Programering\4050\4050\bin\Debug\netcoreapp3.1\4050.exe
+C:\Users\vm\source\repos\Programering\4050\4050\bin\Debug\netcoreapp3.1\4050.deps.json
+C:\Users\vm\source\repos\Programering\4050\4050\bin\Debug\netcoreapp3.1\4050.runtimeconfig.json
+C:\Users\vm\source\repos\Programering\4050\4050\bin\Debug\netcoreapp3.1\4050.runtimeconfig.dev.json
+C:\Users\vm\source\repos\Programering\4050\4050\bin\Debug\netcoreapp3.1\4050.dll
+C:\Users\vm\source\repos\Programering\4050\4050\bin\Debug\netcoreapp3.1\4050.pdb
+C:\Users\vm\source\repos\Programering\4050\4050\obj\Debug\netcoreapp3.1\4050.csprojAssemblyReference.cache
+C:\Users\vm\source\repos\Programering\4050\4050\obj\Debug\netcoreapp3.1\4050.AssemblyInfoInputs.cache
+C:\Users\vm\source\repos\Programering\4050\4050\obj\Debug\netcoreapp3.1\4050.AssemblyInfo.cs
+C:\Users\vm\source\repos\Programering\4050\4050\obj\Debug\netcoreapp3.1\4050.csproj.CoreCompileInputs.cache
+C:\Users\vm\source\repos\Programering\4050\4050\obj\Debug\netcoreapp3.1\4050.dll
+C:\Users\vm\source\repos\Programering\4050\4050\obj\Debug\netcoreapp3.1\4050.pdb
+C:\Users\vm\source\repos\Programering\4050\4050\obj\Debug\netcoreapp3.1\4050.genruntimeconfig.cache
