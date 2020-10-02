@@ -24,3 +24,16 @@
 /home/axel/Documents/Programering/Fragesport class/bin/Debug/netcoreapp3.1/Fragesport.dll
 /home/axel/Documents/Programering/Fragesport class/bin/Debug/netcoreapp3.1/Fragesport.pdb
 /home/axel/Documents/Programering/Fragesport class/obj/Debug/netcoreapp3.1/Fragesport.genruntimeconfig.cache
+C:\Users\vm\source\repos\Programering\Fragesport class\obj\Debug\netcoreapp3.1\Fragesport.csprojAssemblyReference.cache
+C:\Users\vm\source\repos\Programering\Fragesport class\obj\Debug\netcoreapp3.1\Fragesport.AssemblyInfoInputs.cache
+C:\Users\vm\source\repos\Programering\Fragesport class\obj\Debug\netcoreapp3.1\Fragesport.AssemblyInfo.cs
+C:\Users\vm\source\repos\Programering\Fragesport class\obj\Debug\netcoreapp3.1\Fragesport.csproj.CoreCompileInputs.cache
+C:\Users\vm\source\repos\Programering\Fragesport class\obj\Debug\netcoreapp3.1\Fragesport.dll
+C:\Users\vm\source\repos\Programering\Fragesport class\obj\Debug\netcoreapp3.1\Fragesport.pdb
+C:\Users\vm\source\repos\Programering\Fragesport class\bin\Debug\netcoreapp3.1\Fragesport.exe
+C:\Users\vm\source\repos\Programering\Fragesport class\bin\Debug\netcoreapp3.1\Fragesport.deps.json
+C:\Users\vm\source\repos\Programering\Fragesport class\bin\Debug\netcoreapp3.1\Fragesport.runtimeconfig.json
+C:\Users\vm\source\repos\Programering\Fragesport class\bin\Debug\netcoreapp3.1\Fragesport.runtimeconfig.dev.json
+C:\Users\vm\source\repos\Programering\Fragesport class\bin\Debug\netcoreapp3.1\Fragesport.dll
+C:\Users\vm\source\repos\Programering\Fragesport class\bin\Debug\netcoreapp3.1\Fragesport.pdb
+C:\Users\vm\source\repos\Programering\Fragesport class\obj\Debug\netcoreapp3.1\Fragesport.genruntimeconfig.cache
