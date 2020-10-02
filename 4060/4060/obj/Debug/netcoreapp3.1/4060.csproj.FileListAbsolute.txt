@@ -2,3 +2,12 @@ C:\Users\vm\source\repos\Programering\4060\4060\obj\Debug\netcoreapp3.1\4060.csp
 C:\Users\vm\source\repos\Programering\4060\4060\obj\Debug\netcoreapp3.1\4060.AssemblyInfoInputs.cache
 C:\Users\vm\source\repos\Programering\4060\4060\obj\Debug\netcoreapp3.1\4060.AssemblyInfo.cs
 C:\Users\vm\source\repos\Programering\4060\4060\obj\Debug\netcoreapp3.1\4060.csproj.CoreCompileInputs.cache
+C:\Users\vm\source\repos\Programering\4060\4060\bin\Debug\netcoreapp3.1\4060.exe
+C:\Users\vm\source\repos\Programering\4060\4060\bin\Debug\netcoreapp3.1\4060.deps.json
+C:\Users\vm\source\repos\Programering\4060\4060\bin\Debug\netcoreapp3.1\4060.runtimeconfig.json
+C:\Users\vm\source\repos\Programering\4060\4060\bin\Debug\netcoreapp3.1\4060.runtimeconfig.dev.json
+C:\Users\vm\source\repos\Programering\4060\4060\bin\Debug\netcoreapp3.1\4060.dll
+C:\Users\vm\source\repos\Programering\4060\4060\bin\Debug\netcoreapp3.1\4060.pdb
+C:\Users\vm\source\repos\Programering\4060\4060\obj\Debug\netcoreapp3.1\4060.dll
+C:\Users\vm\source\repos\Programering\4060\4060\obj\Debug\netcoreapp3.1\4060.pdb
+C:\Users\vm\source\repos\Programering\4060\4060\obj\Debug\netcoreapp3.1\4060.genruntimeconfig.cache

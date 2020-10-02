@@ -11,6 +11,9 @@ namespace _4060
         {
             Database myDatabase = new Database();
             myDatabase.AddShape3D(new Sphere(4));
+            myDatabase.AddShape3D(new Cylinder(4, 6.0));
+            myDatabase.AddShape3D(new Cube(3.0));
+            myDatabase.Print();
         }
     }
     class Database
@@ -21,9 +24,11 @@ namespace _4060
         {
             foreach (Shape3D shape in shapes) 
             {
-                Console.Write(shape.GetType().Name + ", ");
-                Console.Write("Area: " + shape.GetArea());
-                Console.Write("Volume" + shape.GetVolume());
+                Console.WriteLine(shape.GetType().Name);
+                shape.PrintProprietary();
+                Console.WriteLine("Area: " + shape.GetArea());
+                Console.WriteLine("Volume: " + shape.GetVolume());
+                Console.WriteLine("");
             }
         }
 
@@ -37,6 +42,7 @@ namespace _4060
     {
         double GetArea();
         double GetVolume();
+        void PrintProprietary();
     }
 
     class Sphere : Shape3D
@@ -48,7 +54,12 @@ namespace _4060
         }
         public double GetVolume()
         {
-            return 4 * Math.PI * radius * radius / 3;
+            return (4d / 3d) * Math.PI * (radius * radius * radius);
+        }
+
+        public void PrintProprietary() 
+        {
+            Console.WriteLine("Radius: " + radius);
         }
 
         public Sphere(double aRadius) 
@@ -70,6 +81,11 @@ namespace _4060
         {
             return Math.PI * radius * radius * height;
         }
+        public void PrintProprietary()
+        {
+            Console.WriteLine("Radius: " + radius);
+            Console.WriteLine("Height: " + height);
+        }
         public Cylinder(double aRadius, double aHeight) 
         {
             radius = aRadius;
@@ -89,6 +105,11 @@ namespace _4060
         {
             return length * length * length;
         }
+        public void PrintProprietary()
+        {
+            Console.WriteLine("length of side: " + length);
+        }
+
         public Cube(double aLength) 
         {
             length = aLength;
