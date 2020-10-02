@@ -48,6 +48,10 @@ namespace _4060
     class Sphere : Shape3D
     {
         private double radius;
+        public Sphere(double aRadius)
+        {
+            radius = aRadius;
+        }
         public double GetArea()
         {
             return 4 * Math.PI * radius * radius;
@@ -61,18 +65,17 @@ namespace _4060
         {
             Console.WriteLine("Radius: " + radius);
         }
-
-        public Sphere(double aRadius) 
-        {
-            radius = aRadius;
-        }
     }
 
     class Cylinder : Shape3D
     {
         private double radius;
         private double height;
-
+        public Cylinder(double aRadius, double aHeight)
+        {
+            radius = aRadius;
+            height = aHeight;
+        }
         public double GetArea() 
         {
             return 2 * Math.PI * radius * height + 2 * Math.PI * radius * radius;
@@ -86,17 +89,15 @@ namespace _4060
             Console.WriteLine("Radius: " + radius);
             Console.WriteLine("Height: " + height);
         }
-        public Cylinder(double aRadius, double aHeight) 
-        {
-            radius = aRadius;
-            height = aHeight;
-        }
     }
 
     class Cube : Shape3D
     {
         private double length;
-
+        public Cube(double aLength)
+        {
+            length = aLength;
+        }
         public double GetArea()
         {
             return 6 * length * length;
@@ -108,11 +109,6 @@ namespace _4060
         public void PrintProprietary()
         {
             Console.WriteLine("length of side: " + length);
-        }
-
-        public Cube(double aLength) 
-        {
-            length = aLength;
         }
     }
 }
