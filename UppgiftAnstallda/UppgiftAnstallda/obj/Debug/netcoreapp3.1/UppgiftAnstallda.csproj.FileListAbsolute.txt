@@ -1,0 +1,4 @@
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.csprojAssemblyReference.cache
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.AssemblyInfoInputs.cache
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.AssemblyInfo.cs
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.csproj.CoreCompileInputs.cache
