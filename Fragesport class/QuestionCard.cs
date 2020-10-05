@@ -10,18 +10,19 @@ namespace Fragesport
 
         abstract public void PrintQuestion();
 
-        public void GetInput() 
+        public void GetInput(Score s) 
         {
             string A = Console.ReadLine();
             Console.Clear();
-            if (A.ToLower() == answer)
+            if (A.ToLower() == answer.ToLower())
             {
                 Console.WriteLine("You Guessed correctly!!");
-                //score++;
+                s.AddScore();
             }
             else
             {
                 Console.WriteLine("You Guessed incorrectly!!");
+                s.AddMaxScore();
             }
             Console.WriteLine("Press ENTER to continue");
             while (Console.ReadKey().Key != ConsoleKey.Enter)
