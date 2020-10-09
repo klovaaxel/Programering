@@ -2,3 +2,12 @@ C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debu
 C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.AssemblyInfoInputs.cache
 C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.AssemblyInfo.cs
 C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.csproj.CoreCompileInputs.cache
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\bin\Debug\netcoreapp3.1\UppgiftAnstallda.exe
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\bin\Debug\netcoreapp3.1\UppgiftAnstallda.deps.json
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\bin\Debug\netcoreapp3.1\UppgiftAnstallda.runtimeconfig.json
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\bin\Debug\netcoreapp3.1\UppgiftAnstallda.runtimeconfig.dev.json
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\bin\Debug\netcoreapp3.1\UppgiftAnstallda.dll
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\bin\Debug\netcoreapp3.1\UppgiftAnstallda.pdb
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.dll
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.pdb
+C:\Users\vm\source\repos\Programering\UppgiftAnstallda\UppgiftAnstallda\obj\Debug\netcoreapp3.1\UppgiftAnstallda.genruntimeconfig.cache

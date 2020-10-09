@@ -10,7 +10,9 @@ namespace UppgiftAnstallda
         protected string efternamn;
         protected string personnummer;
         abstract public double BeraknaLon();
-        abstract public String ToString();
-
+        public override string ToString()
+        {
+            return fornamn + efternamn + ", " + personnummer;
+        }
     }
 }

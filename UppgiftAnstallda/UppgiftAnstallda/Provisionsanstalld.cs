@@ -7,8 +7,8 @@ namespace UppgiftAnstallda
 {
     class Provisionsanstalld : Anstalld
     {
-        private double provision;
-        private double forsaljning;
+        protected double provision;
+        protected double forsaljning;
 
         public Provisionsanstalld(String fNamn, String eNamn, String pNum, double provi, double forsalj)
         {
@@ -17,7 +17,7 @@ namespace UppgiftAnstallda
             personnummer = pNum;
             provision = provi;
             forsaljning = forsalj;
-    }
+        }
 
         public override double BeraknaLon()
         {
@@ -25,7 +25,7 @@ namespace UppgiftAnstallda
         }
         public override string ToString()
         {
-            return fornamn + efternamn + ", " + personnummer + ", Provision: " + provision + "försäljning (SEK): " + forsaljning;
+            return base.ToString() + ", Provision: " + provision + ", försäljning (SEK): " + forsaljning;
         }
     }
 

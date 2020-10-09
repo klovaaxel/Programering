@@ -26,7 +26,7 @@ namespace UppgiftAnstallda
 
         public override string ToString()
         {
-            return fornamn + efternamn + ", " + personnummer + ", Timlön: " + timlon + ", Arbetade timmar: " + arbetadeTimmar + "Uträknad Lön: " + BeraknaLon();
+            return base.ToString() + ", Timlön: " + timlon + ", Arbetade timmar: " + arbetadeTimmar + "Uträknad Lön: " + BeraknaLon();
         }
     }
 }

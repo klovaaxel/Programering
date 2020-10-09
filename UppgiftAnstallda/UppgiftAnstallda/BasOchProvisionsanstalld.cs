@@ -8,14 +8,9 @@ namespace UppgiftAnstallda
     {
         private double fastLon;
 
-        public BasOchProvisionsanstalld(String fNamn, String eNamn, String pNum, double fLon, double provi, double forsalj)
+        public BasOchProvisionsanstalld(String fNamn, String eNamn, String pNum, double fLon, double provi, double forsalj) : base(fNamn, eNamn, pNum, provi, forsalj)
         {
-            fornamn = fNamn;
-            efternamn = eNamn;
-            personnummer = pNum;
             fastLon = fLon;
-            provision = provi;
-            forsaljning = forsalj;
         }
 
         public override double BeraknaLon()
@@ -24,7 +19,7 @@ namespace UppgiftAnstallda
         }
         public override string ToString()
         {
-            return fornamn + efternamn + ", " + personnummer + ", Provision: " + provision + "försäljning (SEK): " + forsaljning;
+            return base.ToString() + personnummer + ", Provision: " + provision + ", försäljning (SEK): " + forsaljning;
         }
     }
     
