@@ -8,7 +8,6 @@ namespace Fragesport
     {
         private List<String> altList;
         private int altNum = 1;
-        //public QuestionChoice (String pQuestion, String pa, String pb, String pc, String pd, String pAnswer)
         public QuestionChoice(String pQuestion, List<String> pAlt, String pAnswer)
 
         {
