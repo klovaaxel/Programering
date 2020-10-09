@@ -6,26 +6,25 @@ namespace Fragesport
 {
     class QuestionChoice : QuestionCard
     {
+        private List<String> altList;
+        private int altNum = 1;
+        //public QuestionChoice (String pQuestion, String pa, String pb, String pc, String pd, String pAnswer)
+        public QuestionChoice(String pQuestion, List<String> pAlt, String pAnswer)
 
-        public String a { get; }
-        public String b { get; }
-        public String c { get; }
-        public String d { get; }
-        public QuestionChoice (String pQuestion, String pa, String pb, String pc, String pd, String pAnswer)
         {
             question = pQuestion;
-            a = pa;
-            b = pb;
-            c = pc;
-            d = pd;
+            altList = pAlt;
             answer = pAnswer;
         }
         public override void PrintQuestion() 
         {
             Console.WriteLine(question);
             Console.WriteLine("");
-            Console.WriteLine("A - " + a + "  B - " + b);
-            Console.WriteLine("C - " + c + "  D - " + d);
+            foreach (var alt in altList) 
+            {
+                Console.WriteLine(altNum + " - " + alt);
+                altNum++;
+            }
             Console.WriteLine("");
             Console.WriteLine("Type the corresponding to the answer and press the ENTER key");
         }
