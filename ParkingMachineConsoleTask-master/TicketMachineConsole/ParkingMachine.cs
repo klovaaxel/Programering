@@ -46,21 +46,29 @@ namespace ParkingMachineConsole
         }
         public void InsertMoney(int money) 
         {
-            currentTotal += money;
+            if (money > 0)
+            {
+                currentTotal += money;
+            }
         }
 
         public int Cancel() 
         {
-            return currentTotal;
+            int tCurrentTotal = currentTotal;
+            currentTotal = 0;
+            return tCurrentTotal;
         }
 
         public string BuyTicket() 
         {
-            total += currentTotal;
+            currentTotal += total;
+            int tCurrentTotal = currentTotal;
+            currentTotal = 0;
             return "Parking ticket valid for:" + Environment.NewLine +
-                ((currentTotal / costPerHour) / 24d) + " days" + Environment.NewLine +
-                ((currentTotal / costPerHour) % 24d) + " hours" + Environment.NewLine +
-                ((currentTotal / costPerHour) % 24d % 1 *60) + " minutes";
+                ((tCurrentTotal / costPerHour) / 24) + " days" + Environment.NewLine +
+                ((tCurrentTotal / costPerHour) % 24) + " hours" + Environment.NewLine +
+                ((tCurrentTotal *60 / costPerHour)) % 60 + " minutes";
+
         }
     }
 }
