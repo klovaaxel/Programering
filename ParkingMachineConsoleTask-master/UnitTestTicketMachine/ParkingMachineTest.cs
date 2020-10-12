@@ -14,7 +14,7 @@ namespace UnitTestParkingMachine
         public void ValidInsertMoney()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
             machine.InsertMoney(30);
@@ -27,7 +27,7 @@ namespace UnitTestParkingMachine
         public void InvalidInsertMoney()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
             machine.InsertMoney(-30);
@@ -39,11 +39,11 @@ namespace UnitTestParkingMachine
         public void Cancel()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
             machine.InsertMoney(100);
-            int refund = machine.Cancel();
+            double refund = machine.Cancel();
 
             // Assert
             Assert.AreEqual(0, machine.CurrentTotal);
@@ -54,7 +54,7 @@ namespace UnitTestParkingMachine
         public void BuyTicket30Min_CurrentTotal_Zeroed()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
             machine.InsertMoney(10);
@@ -67,7 +67,7 @@ namespace UnitTestParkingMachine
         public void BuyTicketTwice_Total_Summed()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
             machine.InsertMoney(10);
@@ -82,10 +82,10 @@ namespace UnitTestParkingMachine
         public void BuyTicket30Min_TicketText()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
-            machine.InsertMoney(10);
+            machine.InsertMoney((machine.CostPerHour/2));
             string ticketText = machine.BuyTicket();
 
             // Assert
@@ -95,10 +95,10 @@ namespace UnitTestParkingMachine
         public void BuyTicket3Hour_TicketText()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
-            machine.InsertMoney(60);
+            machine.InsertMoney(3*machine.CostPerHour);
             string ticketText = machine.BuyTicket();
 
             // Assert
@@ -108,10 +108,10 @@ namespace UnitTestParkingMachine
         public void BuyTicket4Day_TicketText()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
-            machine.InsertMoney(20 * 24 * 4);
+            machine.InsertMoney(machine.CostPerHour * 24 * 4);
             string ticketText = machine.BuyTicket();
 
             // Assert
@@ -121,8 +121,8 @@ namespace UnitTestParkingMachine
         public void BuyTicket2Day3Hour15Min_TicketText()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
-            int money = 2 * 24 * 20 + 3 * 20 + 5;
+            ParkingMachine machine = new ParkingMachine(20);
+            double money = 2 * 24 * machine.CostPerHour + 3 * machine.CostPerHour + machine.CostPerHour * 0.25;
 
             // Act
             machine.InsertMoney(money);

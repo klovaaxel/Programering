@@ -26,8 +26,8 @@ namespace ParkingMachineConsole
 
 
         // Total for the current customer.
-        private int currentTotal;
-        public int CurrentTotal 
+        private double currentTotal;
+        public double CurrentTotal 
         {
             get
             {
@@ -36,15 +36,22 @@ namespace ParkingMachineConsole
         }
 
         // Cost to park.
-        private int costPerHour;
+        private double costPerHour;
+        public double CostPerHour
+        {
+            get
+            {
+                return CostPerHour;
+            }
+        }
 
-        public ParkingMachine()
+        public ParkingMachine(int costPerH)
         {
             total = 0;
             currentTotal = 0;
-            costPerHour = 20;
+            costPerHour = costPerH;
         }
-        public void InsertMoney(int money) 
+        public void InsertMoney(double money) 
         {
             if (money > 0)
             {
@@ -52,9 +59,9 @@ namespace ParkingMachineConsole
             }
         }
 
-        public int Cancel() 
+        public double Cancel() 
         {
-            int tCurrentTotal = currentTotal;
+            double tCurrentTotal = currentTotal;
             currentTotal = 0;
             return tCurrentTotal;
         }
@@ -62,7 +69,7 @@ namespace ParkingMachineConsole
         public string BuyTicket() 
         {
             currentTotal += total;
-            int tCurrentTotal = currentTotal;
+            double tCurrentTotal = currentTotal;
             currentTotal = 0;
             return "Parking ticket valid for:" + Environment.NewLine +
                 ((tCurrentTotal / costPerHour) / 24) + " days" + Environment.NewLine +
