@@ -15,8 +15,8 @@ namespace ParkingMachineConsole
     {
         // There is two places to save money.
         // Total in the machine, from all finnished purchases.
-        private int total;
-        public int Total
+        private double total;
+        public double Total
         {
             get
             {
@@ -68,7 +68,8 @@ namespace ParkingMachineConsole
 
         public string BuyTicket() 
         {
-            currentTotal += total;
+            total += currentTotal;
+            Console.WriteLine(total);
             double tCurrentTotal = currentTotal;
             currentTotal = 0;
             return "Parking ticket valid for:" + Environment.NewLine +

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ParkingMachineConsoleTicket
+namespace ParkingMachineConsole
 {
     /// <summary>
     /// An object of the class ParkingMachine represents a parking machine.
@@ -24,10 +24,9 @@ namespace ParkingMachineConsoleTicket
             }
         }
 
-
         // Total for the current customer.
-        private double currentTotal;
-        public double CurrentTotal
+        private int currentTotal;
+        public int CurrentTotal 
         {
             get
             {
@@ -51,7 +50,7 @@ namespace ParkingMachineConsoleTicket
             currentTotal = 0;
             costPerHour = costPerH;
         }
-        public void InsertMoney(double money)
+        public void InsertMoney(int money) 
         {
             if (money > 0)
             {
@@ -59,23 +58,31 @@ namespace ParkingMachineConsoleTicket
             }
         }
 
-        public double Cancel()
+        public int Cancel() 
         {
-            double tCurrentTotal = currentTotal;
+            int tCurrentTotal = currentTotal;
             currentTotal = 0;
             return tCurrentTotal;
         }
 
-        public string BuyTicket()
+        public string BuyTicket() 
         {
-            currentTotal += total;
-            double tCurrentTotal = currentTotal;
+            total += currentTotal;
+            Console.WriteLine(total);
+            int tCurrentTotal = currentTotal;
             currentTotal = 0;
             return "Parking ticket valid for:" + Environment.NewLine +
                 ((tCurrentTotal / costPerHour) / 24) + " days" + Environment.NewLine +
                 ((tCurrentTotal / costPerHour) % 24) + " hours" + Environment.NewLine +
-                ((tCurrentTotal * 60 / costPerHour)) % 60 + " minutes";
+                ((tCurrentTotal *60 / costPerHour)) % 60 + " minutes";
 
+        }
+
+        public TimeSpan GetParkingTimeSpan(){
+            int days = Convert.ToInt32((currentTotal / costPerHour) / 24);
+            int Hours = Convert.ToInt32((currentTotal / costPerHour) % 24);
+            int Minutes = Convert.ToInt32((currentTotal *60 / costPerHour) % 60);
+            return new TimeSpan(days: days, hours: 1, minutes: 0);
         }
     }
 }

@@ -64,7 +64,7 @@ namespace UnitTestParkingMachine
             Assert.AreEqual(0, machine.CurrentTotal);
         }
         [TestMethod]
-        public void BuyTicketTwice_Total_Summed()
+        public void BuyTicketTwice_Total()
         {
             // Arrange
             ParkingMachine machine = new ParkingMachine(20);

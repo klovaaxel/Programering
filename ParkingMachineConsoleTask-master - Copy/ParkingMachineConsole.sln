@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.779
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingMachineConsoleTicket", "TicketMachineConsole\ParkingMachineConsoleTicket.csproj", "{88DDD9FF-E3FC-403E-AEFB-9D386F682671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingMachineConsole", "TicketMachineConsole\ParkingMachineConsole.csproj", "{88DDD9FF-E3FC-403E-AEFB-9D386F682671}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestTicketMachine", "UnitTestTicketMachine\UnitTestTicketMachine.csproj", "{2D322AA7-96AF-48B2-AE45-4A8497B6DFE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestParkingMachine", "UnitTestTicketMachine\UnitTestParkingMachine.csproj", "{2D322AA7-96AF-48B2-AE45-4A8497B6DFE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
