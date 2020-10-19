@@ -12,7 +12,7 @@ namespace ParkingMachineConsole
     /// The time is read twice from the operating system. 
     /// </summary>
     [TestClass]
-    public class TicketMachineTest
+    public class ParkingMachineTest
     {
         [TestMethod]
         public void ValidInsertMoney()
@@ -114,10 +114,10 @@ namespace ParkingMachineConsole
 
             // Act
             machine.InsertMoney(10);
-            string ticketText = machine.BuyTicket();
+            Ticket ticket = machine.BuyTicket();
 
             // Assert
-            Assert.AreEqual(TimeToTicketText(days: 0, hours: 0, minutes: 30), ticketText);
+            Assert.AreEqual(TimeToTicketText(days: 0, hours: 0, minutes: 30), ticket.ToString());
         }
         [TestMethod]
         public void BuyTicket3Hour()
@@ -127,10 +127,10 @@ namespace ParkingMachineConsole
 
             // Act
             machine.InsertMoney(60);
-            string ticketText = machine.BuyTicket();
+            Ticket ticket = machine.BuyTicket();
 
             // Assert
-            Assert.AreEqual(TimeToTicketText(days: 0, hours: 3, minutes: 0), ticketText);
+            Assert.AreEqual(TimeToTicketText(days: 0, hours: 3, minutes: 0), ticket.ToString());
         }
         [TestMethod]
         public void BuyTicket4Day()
@@ -140,10 +140,10 @@ namespace ParkingMachineConsole
 
             // Act
             machine.InsertMoney(20 * 24 * 4);
-            string ticketText = machine.BuyTicket();
+            Ticket ticket = machine.BuyTicket();
 
             // Assert
-            Assert.AreEqual(TimeToTicketText(days: 4, hours: 0, minutes: 0), ticketText);
+            Assert.AreEqual(TimeToTicketText(days: 4, hours: 0, minutes: 0), ticket.ToString());
         }
         [TestMethod]
         public void BuyTicket2Day3Hour15Min()
@@ -154,10 +154,10 @@ namespace ParkingMachineConsole
 
             // Act
             machine.InsertMoney(money);
-            string ticketText = machine.BuyTicket();
+            Ticket ticket = machine.BuyTicket();
 
             // Assert
-            Assert.AreEqual(TimeToTicketText(days: 2, hours: 3, minutes: 15), ticketText);
+            Assert.AreEqual(TimeToTicketText(days: 2, hours: 3, minutes: 15), ticket.ToString());
         }
         [TestMethod]
         public void MultipleBuyTicket_Total()
@@ -233,5 +233,6 @@ namespace ParkingMachineConsole
                 Environment.NewLine +
                 "Valid to: " + validToTime.ToString();
         }
+
     }
 }

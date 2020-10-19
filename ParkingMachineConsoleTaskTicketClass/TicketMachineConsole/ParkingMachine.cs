@@ -79,10 +79,7 @@ namespace ParkingMachineConsole
         }
 
         public TimeSpan GetParkingTimeSpan(){
-            int days = Convert.ToInt32((currentTotal / costPerHour) / 24);
-            int Hours = Convert.ToInt32((currentTotal / costPerHour) % 24);
-            int Minutes = Convert.ToInt32((currentTotal *60 / costPerHour) % 60);
-            return new TimeSpan(days: days, hours: 1, minutes: 0);
+            
         }
     }
 }
