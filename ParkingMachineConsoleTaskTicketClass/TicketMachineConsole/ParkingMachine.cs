@@ -35,8 +35,8 @@ namespace ParkingMachineConsole
         }
 
         // Cost to park.
-        private double costPerHour;
-        public double CostPerHour
+        private int costPerHour;
+        public int CostPerHour
         {
             get
             {
@@ -65,21 +65,30 @@ namespace ParkingMachineConsole
             return tCurrentTotal;
         }
 
-        public string BuyTicket() 
+        public Ticket BuyTicket() 
         {
             total += currentTotal;
             Console.WriteLine(total);
             int tCurrentTotal = currentTotal;
             currentTotal = 0;
-            return "Parking ticket valid for:" + Environment.NewLine +
-                ((tCurrentTotal / costPerHour) / 24) + " days" + Environment.NewLine +
-                ((tCurrentTotal / costPerHour) % 24) + " hours" + Environment.NewLine +
-                ((tCurrentTotal *60 / costPerHour)) % 60 + " minutes";
-
+            return new Ticket(currentTotal, costPerHour);
         }
 
-        public TimeSpan GetParkingTimeSpan(){
-            
+        public TimeSpan GetParkingTimeSpan() 
+        {
+            return new TimeSpan(days: ((currentTotal / costPerHour) / 24), 
+                                hours: ((currentTotal / costPerHour) % 24), 
+                                minutes: (((currentTotal * 60 / costPerHour)) % 60), 
+                                seconds: 0);
+        }
+        public DateTime GetValidTo()
+        {
+            DateTime date = DateTime.Now;
+            date = date.Add(new TimeSpan(days: ((currentTotal / costPerHour) / 24), 
+                                        hours: ((currentTotal / costPerHour) % 24), 
+                                        minutes: (((currentTotal * 60 / costPerHour)) % 60), 
+                                        seconds: 0));
+           return date;
         }
     }
 }
