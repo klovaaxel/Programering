@@ -26,18 +26,20 @@ namespace ParkingMachineConsole
         public TimeSpan GetValidTimeSpan() 
         {
             int days = Convert.ToInt32((currentTotal / costPerHour) / 24);
-            int Hours = Convert.ToInt32((currentTotal / costPerHour) % 24);
-            int Minutes = Convert.ToInt32((currentTotal * 60 / costPerHour) % 60);
-            return new TimeSpan(days: days, hours: 1, minutes: 0);
+            int hours = Convert.ToInt32((currentTotal / costPerHour) % 24);
+            int minutes = Convert.ToInt32((currentTotal * 60 / costPerHour) % 60);
+            return new TimeSpan(days: days, hours: hours, minutes: minutes, seconds: 0);
         }
         public DateTime GetValidTo() 
-        { 
-        
+        {
+            DateTime date = DateTime.Now;
+            date = date.Add(GetValidTimeSpan());
+            return date;
         }
 
         public String ToString() 
         { 
-        
+            
         }
     }
 }
