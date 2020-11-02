@@ -71,7 +71,7 @@ namespace ParkingMachineConsole
             Console.WriteLine(total);
             int tCurrentTotal = currentTotal;
             currentTotal = 0;
-            return new Ticket(currentTotal, costPerHour);
+            return new Ticket(tCurrentTotal, costPerHour);
         }
 
         public TimeSpan GetParkingTimeSpan() 

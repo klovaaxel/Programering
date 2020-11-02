@@ -21,6 +21,7 @@ namespace ParkingMachineConsole
         /// <param name="costPerHour">The cost per hour to park. A hole number.</param>
         public Ticket(int price, int costPerHour)
         {
+            //fixa price så att det är current total och costPerHour 
             days = ((price / costPerHour) / 24);
             hours = ((price / costPerHour) % 24);
             minutes = (((price * 60 / costPerHour)) % 60);
@@ -28,10 +29,14 @@ namespace ParkingMachineConsole
 
         public override String ToString()
         {
+            DateTime validToTime = DateTime.Now;
+            validToTime = validToTime.Add(new TimeSpan(days, hours, minutes, 0));
             return "Parking ticket valid for:" + Environment.NewLine +
                 days + " days" + Environment.NewLine +
                 hours + " hours" + Environment.NewLine +
-                minutes + " minutes" + Environment.NewLine;
+                minutes + " minutes" + Environment.NewLine +
+                Environment.NewLine +
+                "Valid to: " + validToTime.ToString();
         }
         /// <summary>
         /// Property to read cost per hour.
