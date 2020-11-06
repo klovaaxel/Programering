@@ -6,9 +6,15 @@ namespace Banking
 {
     public class AccountNrGenerator
     {
+        int currentAccountNr = 1000;
+
+        public AccountNrGenerator()
+        {
+        }
         public string GetUniqieAccountNr()
         {
-            throw new NotImplementedException();
+            currentAccountNr++;
+            return Convert.ToString(currentAccountNr);
         }
     }
 }

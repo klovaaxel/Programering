@@ -12,11 +12,14 @@ namespace Banking
 
         public BankAccount(string accountNumber, string pin)
         {
-            
+            this.accountNumber = accountNumber;
+            this.pin = pin;
         }
         public BankAccount(string accountNumber, string pin, int balance) : this(accountNumber, pin)
         {
-            
+            this.accountNumber = accountNumber;
+            this.pin = pin;
+            this.balance = balance;
         }
         public String AccountNumber
         {
@@ -35,7 +38,27 @@ namespace Banking
 
         public bool Transfer(Transfer transfer)
         {
-            throw new NotImplementedException();
+            if (accountNumber == transfer.ToAccountNr)
+            {
+                balance = +transfer.Amount;
+                successfullTransfers.Add(transfer);
+                return true;
+            }
+            else if (accountNumber == transfer.FromAccountNr)
+            {
+                if (balance >= transfer.Amount)
+                {
+
+                    balance = +transfer.Amount;
+                    successfullTransfers.Add(transfer);
+                    return true;
+                }
+                return false;
+            }
+            else 
+            {
+                return false;
+            }
         }
 
         public bool ValidatePin(string pin)
