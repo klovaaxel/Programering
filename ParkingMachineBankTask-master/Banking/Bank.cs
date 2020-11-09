@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace Banking
@@ -11,9 +12,12 @@ namespace Banking
         private AccountNrGenerator accountNrGenerator;
         private List<Transfer> failingTransfers;
 
+
         public Bank()
         {
-
+            accounts = new Dictionary<String, BankAccount>();
+            accountNrGenerator = new AccountNrGenerator();
+            failingTransfers = new List<Transfer>();
         }
         /// <summary>
         /// 
@@ -22,15 +26,51 @@ namespace Banking
         /// <returns>Returns the account number if successful, otherwise null.</returns>
         public string AddAccount(string pin)
         {
-            throw new NotImplementedException();
+            if (pin == null || pin == "") 
+            {
+                return null;
+            }
+            else{
+                string accountNr = accountNrGenerator.GetUniqieAccountNr();
+                accounts.Add(accountNr, new BankAccount(accountNr, pin));
+                return accountNr;
+            }
         }
         public string AddAccount(string pin, int balance)
         {
-            throw new NotImplementedException();
+            if (pin == null || pin == "")
+            {
+                return null;
+            }
+            else
+            {
+                if (balance < 0) 
+                {
+                    balance = 0;
+                }
+                string accountNr = accountNrGenerator.GetUniqieAccountNr();
+                accounts.Add(accountNr, new BankAccount(accountNr, pin, balance));
+                return accountNr;
+            }
         }
         public int GetBalance(string accountNr, string pin)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (accounts[accountNr].ValidatePin(pin))
+                {
+                    return accounts[accountNr].Balance;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            catch (Exception e) 
+            {
+                return 0;
+            }
+
         }
         /// <summary>
         /// Call to transfer will fail either pin is wrong or the amount is bigger than allowed.

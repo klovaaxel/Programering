@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace Banking
 {
@@ -40,7 +41,7 @@ namespace Banking
         {
             if (accountNumber == transfer.ToAccountNr)
             {
-                balance = +transfer.Amount;
+                balance += transfer.Amount;
                 successfullTransfers.Add(transfer);
                 return true;
             }
@@ -48,8 +49,7 @@ namespace Banking
             {
                 if (balance >= transfer.Amount)
                 {
-
-                    balance = +transfer.Amount;
+                    balance -= transfer.Amount;
                     successfullTransfers.Add(transfer);
                     return true;
                 }
@@ -63,7 +63,14 @@ namespace Banking
 
         public bool ValidatePin(string pin)
         {
-            throw new NotImplementedException();
+            if (pin == this.pin) 
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
         }
 
         public string GetAllTransfersAsString()
@@ -72,7 +79,7 @@ namespace Banking
         }
         public List<Transfer> GetTransfers()
         {
-            throw new NotImplementedException();
+            return successfullTransfers;
         }
     }
 }
