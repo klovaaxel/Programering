@@ -9,7 +9,7 @@ namespace Banking
         private string pin;
         private string accountNumber;
         private int balance;
-        private List<Transfer> successfullTransfers;
+        private List<Transfer> successfullTransfers = new List<Transfer>();
 
         public BankAccount(string accountNumber, string pin)
         {
@@ -73,10 +73,6 @@ namespace Banking
             }
         }
 
-        public string GetAllTransfersAsString()
-        {
-            throw new NotImplementedException();
-        }
         public List<Transfer> GetTransfers()
         {
             return successfullTransfers;
