@@ -1,8 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using ParkingMachineConsole;
+using Parking;
 
-namespace ParkingMachineConsole
+namespace UnitTestTicketMachine
 {
     /// <summary>
     /// Test for the TicketMachine class.

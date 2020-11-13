@@ -66,7 +66,7 @@ namespace Banking
                     return 0;
                 }
             }
-            catch (Exception e) 
+            catch 
             {
                 return 0;
             }
@@ -80,14 +80,29 @@ namespace Banking
         /// <returns>True if successful.</returns>
         public bool Transfer(Transfer transfer, string pin)
         {
-            throw new NotImplementedException();
+            if (accounts[transfer.FromAccountNr].ValidatePin(pin)) 
+            {
+                accounts[transfer.FromAccountNr].Transfer(transfer);
+                accounts[transfer.ToAccountNr].Transfer(transfer);
+                return true;
+            }
+            return false;
         }
 
         public List<Transfer> GetTransfers(string accountNr, string pin)
         {
-            throw new NotImplementedException();
-        }
-
-        
+            try
+            {
+                if (accounts[accountNr].ValidatePin(pin))
+                {
+                    return accounts[accountNr].SuccessfullTransfers;
+                }
+            }
+            catch
+            {
+                return null;
+            }
+            return null;
+        }    
     }
 }

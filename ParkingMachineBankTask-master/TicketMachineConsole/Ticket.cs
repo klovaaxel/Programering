@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ParkingMachineConsole
+namespace Parking
 {
     public class Ticket
     {
@@ -38,6 +38,30 @@ namespace ParkingMachineConsole
                 Environment.NewLine +
                 "Valid to: " + validToTime.ToString();
         }
+
+        public TimeSpan GetParkingTimeSpan()
+        {
+            return new TimeSpan(days: days,
+                           hours: hours,
+                           minutes: minutes,
+                           seconds: 0);
+        }
+        public DateTime GetValidTo()
+        {
+            DateTime date = DateTime.Now;
+            date = date.Add(new TimeSpan(days: days,
+                                        hours: hours,
+                                        minutes: minutes,
+                                        seconds: 0));
+            return date;
+        }
+        public TimeSpan GetValidTimeSpan() 
+        { 
+            return new TimeSpan(days: days,
+                           hours: hours,
+                           minutes: minutes,
+                           seconds: 0);
+        }
         /// <summary>
         /// Property to read cost per hour.
         /// </summary>
@@ -47,17 +71,17 @@ namespace ParkingMachineConsole
         /// </summary>
 
 
-            /// <summary>
-            /// Returns the amount of time the ticket is valid for. 
-            /// </summary>
-            /// <returns>TimeSpan object with days, hours and minutes. 
-            /// The number of seconds is set to zero.</returns>
+        /// <summary>
+        /// Returns the amount of time the ticket is valid for. 
+        /// </summary>
+        /// <returns>TimeSpan object with days, hours and minutes. 
+        /// The number of seconds is set to zero.</returns>
 
-            /// <summary>
-            /// Returns the date and time the ticket is valid to.
-            /// </summary>
-            /// <returns>A DateTime object for the validity date.</returns>
+        /// <summary>
+        /// Returns the date and time the ticket is valid to.
+        /// </summary>
+        /// <returns>A DateTime object for the validity date.</returns>
 
 
-        }
+    }
 }

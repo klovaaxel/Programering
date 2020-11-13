@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ParkingMachineConsole
+namespace Parking
 {
     /// <summary>
     /// An object of the class ParkingMachine represents a parking machine.
@@ -76,19 +76,11 @@ namespace ParkingMachineConsole
 
         public TimeSpan GetParkingTimeSpan() 
         {
-            return new TimeSpan(days: ((currentTotal / costPerHour) / 24), 
-                                hours: ((currentTotal / costPerHour) % 24), 
-                                minutes: (((currentTotal * 60 / costPerHour)) % 60), 
-                                seconds: 0);
+            
         }
         public DateTime GetValidTo()
         {
-            DateTime date = DateTime.Now;
-            date = date.Add(new TimeSpan(days: ((currentTotal / costPerHour) / 24), 
-                                        hours: ((currentTotal / costPerHour) % 24), 
-                                        minutes: (((currentTotal * 60 / costPerHour)) % 60), 
-                                        seconds: 0));
-           return date;
+            
         }
     }
 }
