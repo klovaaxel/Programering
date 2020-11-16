@@ -9,6 +9,14 @@ namespace Banking
     {
         // all accounts in the bank <account number, bank account>
         private Dictionary<String, BankAccount> accounts;
+        public Dictionary<String, BankAccount> Accounts 
+        {
+            get 
+            {
+               return accounts;
+            }
+
+        }
         private AccountNrGenerator accountNrGenerator;
         private List<Transfer> failingTransfers;
 
@@ -88,7 +96,6 @@ namespace Banking
             }
             return false;
         }
-
         public List<Transfer> GetTransfers(string accountNr, string pin)
         {
             try

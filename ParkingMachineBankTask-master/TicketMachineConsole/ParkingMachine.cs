@@ -44,6 +44,8 @@ namespace Parking
             }
         }
 
+        private Ticket ticket;
+
         public ParkingMachine(int costPerH)
         {
             total = 0;
@@ -68,19 +70,18 @@ namespace Parking
         public Ticket BuyTicket() 
         {
             total += currentTotal;
-            Console.WriteLine(total);
-            int tCurrentTotal = currentTotal;
+            ticket = new Ticket(currentTotal, costPerHour);
             currentTotal = 0;
-            return new Ticket(tCurrentTotal, costPerHour);
+            return ticket;
         }
 
         public TimeSpan GetParkingTimeSpan() 
         {
-            
+            return ticket.GetParkingTimeSpan();
         }
         public DateTime GetValidTo()
         {
-            
+            return ticket.GetValidTo();
         }
     }
 }

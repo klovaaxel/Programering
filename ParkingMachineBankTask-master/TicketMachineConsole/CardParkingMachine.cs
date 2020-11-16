@@ -14,20 +14,45 @@ namespace Parking
 
         public CardParkingMachine(int costPerHour, Bank bank, String accountNr) : base(costPerHour)
         {
-            
+            this.bank = bank;
+            this.accountNr = accountNr;
         }
         public void SetAccountNrAndPin(String accountNr, String pin)
         {
-            throw new NotImplementedException();
+            customerAccountNr = accountNr;
+            customerPin = pin;
         }
         public bool IsSetAccountNrAndPin()
         {
-            throw new NotImplementedException();
+            if (accountNr == null || customerPin == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
         public new Ticket BuyTicket()
         {
-            throw new NotImplementedException();
-        }
+            try
+            {
+                if (bank.Accounts[customerAccountNr].ValidatePin(customerPin))
+                {
+                    customerAccountNr = null;
+                    customerPin = null;
+                    return new Ticket(CurrentTotal, CostPerHour);
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch
+            {
+                return null;
+            }
+        }                                                  
 
     }
 }
