@@ -49,18 +49,12 @@ namespace Parking
         public DateTime GetValidTo()
         {
             DateTime date = DateTime.Now;
-            date = date.Add(new TimeSpan(days: days,
-                                        hours: hours,
-                                        minutes: minutes,
-                                        seconds: 0));
+            date = date.Add(GetParkingTimeSpan());
             return date;
         }
         public TimeSpan GetValidTimeSpan() 
-        { 
-            return new TimeSpan(days: days,
-                           hours: hours,
-                           minutes: minutes,
-                           seconds: 0);
+        {
+            return GetParkingTimeSpan();
         }
         /// <summary>
         /// Property to read cost per hour.
