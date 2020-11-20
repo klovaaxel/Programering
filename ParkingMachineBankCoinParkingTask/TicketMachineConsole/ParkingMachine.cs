@@ -15,7 +15,7 @@ namespace Parking
     {
         // There is two places to save money.
         // Total in the machine, from all finnished purchases.
-        private int total;
+        protected int total;
         public int Total
         {
             get
@@ -25,7 +25,7 @@ namespace Parking
         }
 
         // Total for the current customer.
-        private int currentTotal;
+        protected int currentTotal;
         public int CurrentTotal 
         {
             get
@@ -35,7 +35,7 @@ namespace Parking
         }
 
         // Cost to park.
-        private int costPerHour;
+        protected int costPerHour;
         public int CostPerHour
         {
             get
