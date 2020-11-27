@@ -67,7 +67,7 @@ namespace Parking
             return tCurrentTotal;
         }
 
-        public Ticket BuyTicket() 
+        public virtual Ticket BuyTicket() 
         {
             total += currentTotal;
             ticket = new Ticket(currentTotal, costPerHour);

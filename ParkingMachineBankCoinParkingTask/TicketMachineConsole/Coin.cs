@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Parking
 {
-    class Class1
+    public enum Coin : int
     {
+        One = 1,
+        Two = 2,
+        Five = 5,
+        Ten = 10
     }
 }

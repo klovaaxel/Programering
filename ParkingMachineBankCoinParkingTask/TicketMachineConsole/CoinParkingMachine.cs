@@ -4,28 +4,23 @@ using System.Text;
 
 namespace Parking
 {
-    class CoinParkingMachine : ParkingMachine
+    public class CoinParkingMachine : ParkingMachine
     {
         private List<Coin> coins = new List<Coin>();
-        public CoinParkingMachine(int costPerH) 
+        public CoinParkingMachine(int costPerH) : base(costPerH)
         {
-            costPerHour = costPerH;
         }
-        public enum Coin : int
-        {
-            One = 1,
-            Two = 2,
-            Five = 5,
-            Ten = 10
-        }
-
         public void InsertCoin(Coin Coin) 
         {
             coins.Add(Coin);
             int CoinVal = (int)Coin;
             InsertMoney(CoinVal);
-        } 
-
+        }
+        public override Ticket BuyTicket()
+        {
+            coins.Clear();
+            return base.BuyTicket();
+        }
         public List<Coin> Refund()
         {
             return coins;
