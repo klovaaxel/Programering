@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Fragesport File/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Fragesport File.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fragesport File.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Fragesport File/1.0.0": {
+      "type": "project",
+      "path": "../Fragesport File/Fragesport File.csproj",
+      "msbuildProject": "../Fragesport File/Fragesport File.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Fragesport File >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vm\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport File\\Fragesport File\\Fragesport File.csproj",
-      "projectName": "Fragesport File",
-      "projectPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport File\\Fragesport File\\Fragesport File.csproj",
+      "projectUniqueName": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport WPF\\Fragesport WPF.csproj",
+      "projectName": "Fragesport WPF",
+      "projectPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport WPF\\Fragesport WPF.csproj",
       "packagesPath": "C:\\Users\\vm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport File\\Fragesport File\\obj\\",
+      "outputPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport WPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport File\\Fragesport File.csproj": {
+              "projectPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport File\\Fragesport File.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -61,6 +84,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"

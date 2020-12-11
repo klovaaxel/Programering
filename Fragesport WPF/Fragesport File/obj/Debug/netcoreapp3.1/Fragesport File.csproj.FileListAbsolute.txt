@@ -1,0 +1,26 @@
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.exe
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.deps.json
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.runtimeconfig.json
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.runtimeconfig.dev.json
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.dll
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.pdb
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.csprojAssemblyReference.cache
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.AssemblyInfoInputs.cache
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.AssemblyInfo.cs
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.csproj.CoreCompileInputs.cache
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.dll
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.pdb
+C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.genruntimeconfig.cache
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.csprojAssemblyReference.cache
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.AssemblyInfoInputs.cache
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.AssemblyInfo.cs
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.csproj.CoreCompileInputs.cache
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.dll
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.pdb
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.exe
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.deps.json
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.runtimeconfig.json
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.runtimeconfig.dev.json
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.dll
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.pdb
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.genruntimeconfig.cache

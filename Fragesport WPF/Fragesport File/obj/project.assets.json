@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport File\\Fragesport File\\Fragesport File.csproj",
+      "projectUniqueName": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport File\\Fragesport File.csproj",
       "projectName": "Fragesport File",
-      "projectPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport File\\Fragesport File\\Fragesport File.csproj",
+      "projectPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport File\\Fragesport File.csproj",
       "packagesPath": "C:\\Users\\vm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport File\\Fragesport File\\obj\\",
+      "outputPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport File\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
