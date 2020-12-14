@@ -38,8 +38,14 @@
             </StackPanel>
         </Border>
 
-        <Border Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1">
-            <TextBlock Name="QuestionBox" Text="Question" />
+        <Border Name="QuestionOutBox"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1">
+
+            <StackPanel Name="QuestionStack" Orientation="Vertical">
+                <TextBlock Name="QuestionBox" Text="Question" />
+                <StackPanel Name="altStack">
+                    
+                </StackPanel>
+            </StackPanel>
         </Border>
 
         <Border Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1">

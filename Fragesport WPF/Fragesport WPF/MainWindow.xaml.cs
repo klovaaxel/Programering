@@ -28,13 +28,19 @@ namespace Fragesport_WPF
         {
             InitializeComponent();
             fragesport.start();
-            PrintNextQ();
+            PrintQ();
 
         }
 
         private void CheckQuestion_Click(object sender, RoutedEventArgs e)
         {
-            if (fragesport.CheckAnswer(AnswerBox.Text, question, score))
+            Button knapp = (Button)sender;
+            String answer = AnswerBox.Text;
+            if (knapp.DataContext != null)
+            {
+                answer = knapp.DataContext.ToString();
+            }
+            if (fragesport.CheckAnswer(answer, question, score))
             {
                 //"You Guessed correctly!!"
                 QuestionBox.Text = "You Guessed correctly!!";
@@ -45,6 +51,7 @@ namespace Fragesport_WPF
                 //"You Guessed incorrectly!!"
                 QuestionBox.Text = "You Guessed incorrectly!!";
             }
+            altStack.Children.Clear();
             AnswerBox.Text = "";
         }
 
@@ -57,11 +64,14 @@ namespace Fragesport_WPF
 
                 if (question.GetChoice() != null)
                 {
+                    altStack.Children.Clear();
                     int altNum = 1;
                     QuestionBox.Text += "\n";
                     foreach (var alt in question.GetChoice())
                     {
-                        QuestionBox.Text += altNum + ". " + alt + "\n";
+                        Button button = new Button() { Content = alt, DataContext = Convert.ToString(altNum) };
+                        button.Click += new RoutedEventHandler(CheckQuestion_Click);
+                        altStack.Children.Add(button);
                         altNum++;
                     }
                 }
@@ -70,10 +80,10 @@ namespace Fragesport_WPF
 
         private void NextQuestion_Click(object sender, RoutedEventArgs e)
         {
-            PrintNextQ();
+            PrintQ();
         }
 
-        private void PrintNextQ() 
+        private void PrintQ() 
         {
             question = fragesport.GetNextQuestion();
             
@@ -83,11 +93,14 @@ namespace Fragesport_WPF
 
                 if (question.GetChoice() != null)
                 {
+                    altStack.Children.Clear();
                     int altNum = 1;
                     QuestionBox.Text += "\n";
                     foreach (var alt in question.GetChoice())
                     {
-                        QuestionBox.Text += altNum + ". " + alt + "\n";
+                        Button button = new Button() { Content = alt, DataContext = Convert.ToString(altNum) };
+                        button.Click += new RoutedEventHandler(CheckQuestion_Click);
+                        altStack.Children.Add(button);
                         altNum++;
                     }
                 }
