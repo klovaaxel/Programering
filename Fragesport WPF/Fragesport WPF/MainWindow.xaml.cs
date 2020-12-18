@@ -61,10 +61,12 @@ namespace Fragesport_WPF
             if (question != null)
             {
                 QuestionBox.Text = question.GetQuestionText();
+                altStack.Children.Clear();
+                answerStack.Children.Clear();
+                CheckStack.Children.Clear();
 
                 if (question.GetChoice() != null)
                 {
-                    altStack.Children.Clear();
                     int altNum = 1;
                     QuestionBox.Text += "\n";
                     foreach (var alt in question.GetChoice())
@@ -74,6 +76,14 @@ namespace Fragesport_WPF
                         altStack.Children.Add(button);
                         altNum++;
                     }
+                }
+                else 
+                {
+                    answerStack.Children.Add(new TextBlock() { Text = "Answer Box" });
+                    answerStack.Children.Add(new TextBox() { Name = "AnswerBox", Width = 200 });
+                    Button button = new Button() { Name = "CheckQuestion", Content = "Check Question" };
+                    button.Click += new RoutedEventHandler(CheckQuestion_Click);
+                    CheckStack.Children.Add(button);
                 }
             }
         }
@@ -90,10 +100,12 @@ namespace Fragesport_WPF
             if (question != null)
             {
                 QuestionBox.Text = question.GetQuestionText();
+                altStack.Children.Clear();
+                answerStack.Children.Clear();
+                CheckStack.Children.Clear();
 
                 if (question.GetChoice() != null)
                 {
-                    altStack.Children.Clear();
                     int altNum = 1;
                     QuestionBox.Text += "\n";
                     foreach (var alt in question.GetChoice())
@@ -103,6 +115,14 @@ namespace Fragesport_WPF
                         altStack.Children.Add(button);
                         altNum++;
                     }
+                }
+                else
+                {
+                    answerStack.Children.Add(new TextBlock() { Text = "Answer Box" });
+                    answerStack.Children.Add(new TextBox() { Name = "AnswerBox", Width = 200 });
+                    Button button = new Button() { Name = "CheckQuestion", Content = "Check Question" };
+                    button.Click += new RoutedEventHandler(CheckQuestion_Click);
+                    CheckStack.Children.Add(button);
                 }
             }
             else

@@ -49,14 +49,16 @@
         </Border>
 
         <Border Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1">
-            <StackPanel Orientation="Vertical">
+            <StackPanel Name="answerStack" Orientation="Vertical">
                 <TextBlock Text="answer box" />
                 <TextBox Name="AnswerBox" Width="200" />
             </StackPanel>
         </Border>
 
         <Border Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1">
-            <Button Name="CheckQuestion" Content="Check Question" Click="CheckQuestion_Click" />
+            <StackPanel Name="CheckStack">
+                <Button Name="CheckQuestion" Content="Check Question" Click="CheckQuestion_Click" />
+            </StackPanel>
         </Border>
     </Grid>
 </Window>
