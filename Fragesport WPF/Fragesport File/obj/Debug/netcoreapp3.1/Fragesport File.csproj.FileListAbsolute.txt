@@ -14,7 +14,6 @@ C:\Users\vm\source\repos\Programering\Fragesport File\Fragesport File\obj\Debug\
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.csprojAssemblyReference.cache
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.AssemblyInfoInputs.cache
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.AssemblyInfo.cs
-C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.csproj.CoreCompileInputs.cache
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.dll
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.pdb
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.exe
@@ -24,3 +23,7 @@ C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.dll
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Fragesport File.pdb
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.genruntimeconfig.cache
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.csproj.CopyComplete
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport File\obj\Debug\netcoreapp3.1\Fragesport File.csproj.CoreCompileInputs.cache
