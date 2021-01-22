@@ -23,6 +23,7 @@
           }
         }
       },
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.11": {},
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.4",
@@ -148,6 +149,13 @@
       "sha512": "sha512-coC0Lo7PgP9d7XXBd/aYik/hNWTc4cJ+fzJqPgYXNVI1OlbwdrvM5vQWwS0edWsBNnWn0+qkKPN4rTtTiKxPhg==",
       "path": "microsoft.data.sqlite.core/5.0.1",
       "hashPath": "microsoft.data.sqlite.core.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YeOCD+m2tfqkYzQ2hAKZ52cTrHWU0HRS4/2vf3SeZ+KHWq+unmskH+TrRktaIj/pChwPUMwLdCTU5/+4WeQcWQ==",
+      "path": "microsoft.netcore.universalwindowsplatform/6.2.11",
+      "hashPath": "microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "type": "package",

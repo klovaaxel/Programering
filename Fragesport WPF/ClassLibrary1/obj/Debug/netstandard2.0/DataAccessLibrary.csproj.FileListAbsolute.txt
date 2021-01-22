@@ -6,3 +6,6 @@ C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\ClassLibrary1\obj\D
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\ClassLibrary1\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\ClassLibrary1\bin\Debug\netstandard2.0\Windows.winmd
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\ClassLibrary1\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\ClassLibrary1\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\ClassLibrary1\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\ClassLibrary1\obj\Debug\netstandard2.0\DataAccessLibrary.pdb

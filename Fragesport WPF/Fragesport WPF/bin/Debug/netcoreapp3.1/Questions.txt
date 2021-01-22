@@ -1,4 +1,4 @@
 C,What animal causes the most power outages in the U.S.?,Squirrels,Turtles,Bears,Snakes,1
 C,What is the inventor of the pringels can burried in?,Casket,Pringels Can,A big box,His house,2
 C,What was spider webs used as in ancient times?,Clothes,Cutlary,Bandages,Food,3
-T,What is my name,Axel
+T,What is my name,axel

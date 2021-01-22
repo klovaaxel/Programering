@@ -34,7 +34,7 @@ namespace Fragesport_File
         {
             FileReader File = new FileReader();
             File.ReadFromFile(questions);
-            DataAccess.InitializeDatabase();
+            //DataAccess.InitializeDatabase();
         }
         public void StartDB(List<QuestionCard> questions) 
         {
@@ -87,6 +87,11 @@ namespace Fragesport_File
                 score.AddMaxScore();
                 return false;
             }
+        }
+
+        public string GetAnswer(QuestionCard q) 
+        {
+            return q.GetAnswer();
         }
     }
 }

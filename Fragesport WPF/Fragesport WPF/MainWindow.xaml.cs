@@ -40,6 +40,10 @@ namespace Fragesport_WPF
             {
                 answer = knapp.DataContext.ToString();
             }
+            else 
+            {
+                answer = AnswerBox.Text;
+            }
             if (fragesport.CheckAnswer(answer, question, score))
             {
                 //"You Guessed correctly!!"
@@ -49,7 +53,7 @@ namespace Fragesport_WPF
             else 
             {
                 //"You Guessed incorrectly!!"
-                QuestionBox.Text = "You Guessed incorrectly!!";
+                QuestionBox.Text = " You Guessed incorrectly!! The correct asnwer was '" + fragesport.GetAnswer(question) + "'";
             }
             altStack.Children.Clear();
             AnswerBox.Text = "";
@@ -62,8 +66,9 @@ namespace Fragesport_WPF
             {
                 QuestionBox.Text = question.GetQuestionText();
                 altStack.Children.Clear();
-                answerStack.Children.Clear();
+                //answerStack.Children.Clear();
                 CheckStack.Children.Clear();
+                answerStack.Visibility = Visibility.Hidden;
 
                 if (question.GetChoice() != null)
                 {
@@ -79,8 +84,10 @@ namespace Fragesport_WPF
                 }
                 else 
                 {
-                    answerStack.Children.Add(new TextBlock() { Text = "Answer Box" });
-                    answerStack.Children.Add(new TextBox() { Name = "AnswerBox", Width = 200 });
+                    //answerStack.Children.Add(new TextBlock() { Text = "Answer Box" });
+                    //answerStack.Children.Add(new TextBox() { Name = "AnswerBox", Width = 200 });
+                    answerStack.Visibility = Visibility.Visible;
+
                     Button button = new Button() { Name = "CheckQuestion", Content = "Check Question" };
                     button.Click += new RoutedEventHandler(CheckQuestion_Click);
                     CheckStack.Children.Add(button);
@@ -101,8 +108,10 @@ namespace Fragesport_WPF
             {
                 QuestionBox.Text = question.GetQuestionText();
                 altStack.Children.Clear();
-                answerStack.Children.Clear();
+                //answerStack.Children.Clear();
                 CheckStack.Children.Clear();
+                answerStack.Visibility = Visibility.Hidden;
+
 
                 if (question.GetChoice() != null)
                 {
@@ -118,8 +127,9 @@ namespace Fragesport_WPF
                 }
                 else
                 {
-                    answerStack.Children.Add(new TextBlock() { Text = "Answer Box" });
-                    answerStack.Children.Add(new TextBox() { Name = "AnswerBox", Width = 200 });
+                    //answerStack.Children.Add(new TextBlock() { Text = "Answer Box" });
+                    //answerStack.Children.Add(new TextBox() { Name = "AnswerBox", Width = 200  });
+                    answerStack.Visibility = Visibility.Visible; //THIS HERE
                     Button button = new Button() { Name = "CheckQuestion", Content = "Check Question" };
                     button.Click += new RoutedEventHandler(CheckQuestion_Click);
                     CheckStack.Children.Add(button);
@@ -129,6 +139,10 @@ namespace Fragesport_WPF
             {
                 QuestionBox.Text = "you have compleated the quiz and got the score " + Convert.ToString(score.GetScore()) + " / " + Convert.ToString(score.GetMaxScore());
             }
+        }
+
+        private void AnswerBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
         }
     }
 }

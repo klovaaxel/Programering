@@ -51,7 +51,7 @@
         <Border Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1">
             <StackPanel Name="answerStack" Orientation="Vertical">
                 <TextBlock Text="answer box" />
-                <TextBox Name="AnswerBox" Width="200" />
+                <TextBox Name="AnswerBox" Width="200" Text="" TextChanged="AnswerBox_TextChanged"/>
             </StackPanel>
         </Border>
 
