@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\ClassLibrary1\\DataAccessLibrary.csproj": {}
+    "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\ClassLibrary1\\DataAccessLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\ClassLibrary1\\DataAccessLibrary.csproj": {
+    "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\ClassLibrary1\\DataAccessLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\ClassLibrary1\\DataAccessLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\ClassLibrary1\\DataAccessLibrary.csproj",
         "projectName": "DataAccessLibrary",
-        "projectPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\ClassLibrary1\\DataAccessLibrary.csproj",
-        "packagesPath": "C:\\Users\\vm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\ClassLibrary1\\obj\\",
+        "projectPath": "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\ClassLibrary1\\DataAccessLibrary.csproj",
+        "packagesPath": "C:\\Users\\klova\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\klova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -30,6 +26,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -41,6 +38,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.Data.Sqlite": {
               "target": "Package",
@@ -67,7 +65,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

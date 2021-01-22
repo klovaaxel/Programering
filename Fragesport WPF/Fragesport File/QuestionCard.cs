@@ -7,8 +7,43 @@ namespace Fragesport_File
 {
     public abstract class QuestionCard
     {
+ 
+        protected String id;
+        public string Id
+        {
+            get 
+            {
+                return id;
+            }
+            set 
+            {
+                id = value;
+            }
+        }
         protected String question;
+        public string Question
+        {
+            get
+            {
+                return question;
+            }
+            set
+            {
+                question = value;
+            }
+        }
         protected String answer;
+        public string Answer
+        {
+            get
+            {
+                return answer;
+            }
+            set
+            {
+                answer = value;
+            }
+        }
 
         abstract public void PrintQuestion();
         abstract public String GetQuestion();

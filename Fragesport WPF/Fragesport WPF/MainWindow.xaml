@@ -27,21 +27,21 @@
 
         <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1">
             <StackPanel Orientation="Horizontal">
-                <Button Name="PreviousQuestion" Content="Previous Question" Click="PreviousQuestion_Click" />
+                <Button Name="PreviousQuestion" Content="Previous Question" Click="PreviousQuestion_Click" Width="158" />
 
             </StackPanel>
         </Border>
 
         <Border Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1">
             <StackPanel Orientation="Horizontal">
-                <Button Name="NextQuestion" Content="Next Question" Click="NextQuestion_Click" />
+                <Button Name="NextQuestion" Content="Next Question" Click="NextQuestion_Click" Width="160" />
             </StackPanel>
         </Border>
 
         <Border Name="QuestionOutBox"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1">
 
             <StackPanel Name="QuestionStack" Orientation="Vertical">
-                <TextBlock Name="QuestionBox" Text="Question" />
+                <TextBlock Name="QuestionBox" Text="Question" HorizontalAlignment="Center" />
                 <StackPanel Name="altStack">
                     
                 </StackPanel>
@@ -57,7 +57,7 @@
 
         <Border Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1">
             <StackPanel Name="CheckStack">
-                <Button Name="CheckQuestion" Content="Check Question" Click="CheckQuestion_Click" />
+                <Button Name="CheckQuestion" Content="Check Question" Click="CheckQuestion_Click" Height="87" />
             </StackPanel>
         </Border>
     </Grid>

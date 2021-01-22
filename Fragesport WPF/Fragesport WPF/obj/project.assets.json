@@ -605,25 +605,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vm\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\klova\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport WPF\\Fragesport WPF.csproj",
+      "projectUniqueName": "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\Fragesport WPF\\Fragesport WPF.csproj",
       "projectName": "Fragesport WPF",
-      "projectPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport WPF\\Fragesport WPF.csproj",
-      "packagesPath": "C:\\Users\\vm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport WPF\\obj\\",
+      "projectPath": "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\Fragesport WPF\\Fragesport WPF.csproj",
+      "packagesPath": "C:\\Users\\klova\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\Fragesport WPF\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\vm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\klova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -634,9 +629,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport File\\Fragesport File.csproj": {
-              "projectPath": "C:\\Users\\vm\\Documents\\GitHub\\Programering new\\Fragesport WPF\\Fragesport File\\Fragesport File.csproj"
+            "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\Fragesport File\\Fragesport File.csproj": {
+              "projectPath": "C:\\Users\\klova\\Documents\\GitHub\\Programering\\Fragesport WPF\\Fragesport File\\Fragesport File.csproj"
             }
           }
         }
@@ -649,6 +645,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -667,7 +664,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

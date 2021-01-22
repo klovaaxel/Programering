@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfDemoTowerSql.AddTowerDialogBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemoTowerSql"
+        mc:Ignorable="d"
+        Title="Add Tower" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Add a tower." />
+            <TextBlock Text="Name" />
+            <TextBox Name="NameBox" />
+            <TextBlock Text="Height in meter." />
+            <TextBox Name="HeightBox" />
+            <StackPanel Orientation="Horizontal">
+                <Button Name="Save" Content="Save" Click="Save_Click"/>
+                <!-- IsCancel="True" makes it possible to click Esc (escape key) to cancel -->
+                <Button Name="Cancel" Content="Cancel" Click="Cancel_Click" IsCancel="True"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

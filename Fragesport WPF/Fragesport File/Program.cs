@@ -34,7 +34,9 @@ namespace Fragesport_File
         {
             FileReader File = new FileReader();
             File.ReadFromFile(questions);
-            //DataAccess.InitializeDatabase();
+            DatabaseHandler DBH = new DatabaseHandler();
+            DBH.InitializeDatabase();
+            questions = DBH.GetQuestions();
         }
         public void StartDB(List<QuestionCard> questions) 
         {

@@ -41,3 +41,46 @@ C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport WPF\bin\
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\DataAccessLibrary.dll
 C:\Users\vm\Documents\GitHub\Programering new\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\DataAccessLibrary.pdb
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport File.exe
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport WPF.exe
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport WPF.deps.json
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport WPF.runtimeconfig.json
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport WPF.runtimeconfig.dev.json
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport WPF.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport WPF.pdb
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\DataAccessLibrary.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport File.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\Fragesport File.pdb
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\bin\Debug\netcoreapp3.1\DataAccessLibrary.pdb
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.csprojAssemblyReference.cache
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF_MarkupCompile.cache
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF_MarkupCompile.lref
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.g.resources
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.AssemblyInfoInputs.cache
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.AssemblyInfo.cs
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.csproj.CoreCompileInputs.cache
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.csproj.CopyComplete
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.dll
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.pdb
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.genruntimeconfig.cache
