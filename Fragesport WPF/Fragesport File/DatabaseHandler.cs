@@ -267,10 +267,8 @@ namespace Fragesport_File
         {
             AddTextQuestion("What is my name", "axel");
             AddAltQuestion("What animal causes the most power outages in the U.S.?", "Squirrels", "Turtles", "Bears", "Snakes", "1");
-            AddAltQuestion("What is the inventor of the pringels can burried in?", "Squirrels", "Turtles", "Bears", "Snakes", "1");
-            AddAltQuestion("What was spider webs used as in ancient times?", "Squirrels", "Turtles", "Bears", "Snakes", "1");
-
-
+            AddAltQuestion("What is the inventor of the pringels can burried in?", "Casket", "Pringels Can", "A big box", "His house", "2");
+            AddAltQuestion("What was spider webs used as in ancient times?", "Clothes", "Cutlary", "Bandages", "Food", "3");
 
         }
 

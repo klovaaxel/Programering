@@ -144,5 +144,10 @@ namespace Fragesport_WPF
         private void AnswerBox_TextChanged(object sender, TextChangedEventArgs e)
         {
         }
+
+        private async void Admin_Click(object sender, RoutedEventArgs e)
+        {
+            AdminWindow appWindow = await AdminWindow.TryCreateAsync();
+        }
     }
 }
