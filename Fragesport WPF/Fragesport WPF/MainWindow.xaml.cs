@@ -13,7 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Fragesport_File;
-
 namespace Fragesport_WPF
 {
     /// <summary>
@@ -147,7 +146,8 @@ namespace Fragesport_WPF
 
         private async void Admin_Click(object sender, RoutedEventArgs e)
         {
-            AdminWindow appWindow = await AdminWindow.TryCreateAsync();
+            Window1 AW = new Window1(fragesport);
+            AW.ShowDialog();
         }
     }
 }

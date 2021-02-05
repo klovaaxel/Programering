@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\App.xaml
-2261122822
+4583054964
 
-6-841160092
+8898860740
 19938514743
-AdminWIndow.xaml;MainWindow.xaml;
+AddQuestion.xaml;AdminWindow.xaml;EditQuestion.xaml;MainWindow.xaml;
 
-False
+True
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Fragesport_File
 {
-    class QuestionChoice : QuestionCard
+    public class QuestionChoice : QuestionCard
     {
         private List<String> altList;
         private int altNum = 1;

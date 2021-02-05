@@ -21,6 +21,12 @@
 
         </Grid.RowDefinitions>
 
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="1">
+            <StackPanel Orientation="Horizontal">
+                <Button Name="Admin" Content="Admin Window" Click="Admin_Click"  Width="160" />
+            </StackPanel>
+        </Border>
+
         <Border Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="1">
             <TextBlock Name="ScoreBox"  Text="Score: " />
         </Border>

@@ -84,3 +84,9 @@ C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\D
 C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.dll
 C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.pdb
 C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\Fragesport WPF.genruntimeconfig.cache
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\AdminWindow.g.cs
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\AdminWindow.baml
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\AddQuestion.g.cs
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\AddQuestion.baml
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\EditQuestion.g.cs
+C:\Users\klova\Documents\GitHub\Programering\Fragesport WPF\Fragesport WPF\obj\Debug\netcoreapp3.1\EditQuestion.baml

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Fragesport_WPF.AddQuestion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fragesport_WPF"
+        mc:Ignorable="d"
+        Title="Add Question" Height="200" Width="400">
+    <StackPanel>
+        <TextBlock Text="Question"></TextBlock>
+        <TextBox Name="QuestionBox" Height="50" Text="" ></TextBox>
+        <TextBlock Text="Answer"></TextBlock>
+        <TextBox Name="AnswerBox" Text="" Height="50"></TextBox>
+
+        <Button Name="AddQuestionButton" Content="Add Question" Click="AddQuestion_Click"></Button>
+    </StackPanel>
+</Window>

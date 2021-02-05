@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Fragesport_File
 {
-    class QuestionText : QuestionCard
+    public class QuestionText : QuestionCard
     {
 
         public QuestionText(String Q, String A) 

@@ -12,6 +12,7 @@ namespace Fragesport_File
     public class Program
     {
         public List<QuestionCard> questions = new List<QuestionCard>();
+        private DatabaseHandler DBH;
         public int nextQ = 0;
 
         public static void Main(string[] args)
@@ -34,7 +35,7 @@ namespace Fragesport_File
         {
             FileReader File = new FileReader();
             File.ReadFromFile(questions);
-            DatabaseHandler DBH = new DatabaseHandler();
+            DBH = new DatabaseHandler();
             DBH.InitializeDatabase();
             questions = DBH.GetQuestions();
         }
@@ -94,6 +95,11 @@ namespace Fragesport_File
         public string GetAnswer(QuestionCard q) 
         {
             return q.GetAnswer();
+        }
+
+        public void AddTextQuestion(QuestionCard q) 
+        {
+            DBH.AddTextQuestion(q.Question, q.Answer);
         }
     }
 }

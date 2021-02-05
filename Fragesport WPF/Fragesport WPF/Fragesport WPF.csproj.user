@@ -7,7 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="EditQuestion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddQuestion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditQuestion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddQuestion.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

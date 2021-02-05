@@ -16,10 +16,10 @@ namespace Fragesport_WPF
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class AddQuestion : Window
     {
-        Program program;
-        public Window1(Program program)
+        private Program program;
+        public AddQuestion(Program program)
         {
             this.program = program;
             InitializeComponent();
@@ -27,12 +27,7 @@ namespace Fragesport_WPF
 
         private void AddQuestion_Click(object sender, RoutedEventArgs e)
         {
-            AddQuestion addQuestionWindow = new AddQuestion(program);
-            addQuestionWindow.ShowDialog();
-        }
-
-        private void EditQuestion_Click(object sender, RoutedEventArgs e)
-        {
+            program.AddTextQuestion(new QuestionText(QuestionBox.Text, AnswerBox.Text));
 
         }
     }
