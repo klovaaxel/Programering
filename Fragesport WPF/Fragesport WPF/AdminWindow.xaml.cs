@@ -33,7 +33,13 @@ namespace Fragesport_WPF
 
         private void EditQuestion_Click(object sender, RoutedEventArgs e)
         {
+            EditQuestion editQuestionWindow = new EditQuestion(program);
+            editQuestionWindow.ShowDialog();
+        }
 
+        private void UpdateDB_Click(object sender, RoutedEventArgs e)
+        {
+            program.UpdateDB();
         }
     }
 }

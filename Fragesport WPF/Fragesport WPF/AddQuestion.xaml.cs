@@ -27,8 +27,15 @@ namespace Fragesport_WPF
 
         private void AddQuestion_Click(object sender, RoutedEventArgs e)
         {
-            program.AddTextQuestion(new QuestionText(QuestionBox.Text, AnswerBox.Text));
-
+            try 
+            {
+                program.AddTextQuestion(new QuestionText(QuestionBox.Text, AnswerBox.Text));
+                this.DialogResult = true;
+            }
+            catch
+            {
+                this.DialogResult = false;
+            }
         }
     }
 }

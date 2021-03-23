@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <TextBlock Text="Question"></TextBlock>
+            <TextBox Name="QuestionBox" Height="50" Text="" ></TextBox>
+            <TextBlock Text="Answer"></TextBlock>
+            <TextBox Name="AnswerBox" Text="" Height="50"></TextBox>
+            <Button Name="SaveEdit" Content="Save" Click="SaveEdit_Click"></Button>
+            <StackPanel Name="QuestionList">
+
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>

@@ -39,9 +39,9 @@ namespace Fragesport_File
             DBH.InitializeDatabase();
             questions = DBH.GetQuestions();
         }
-        public void StartDB(List<QuestionCard> questions) 
+        public void UpdateDB() 
         {
-            
+            questions = DBH.GetQuestions();
         }
         private void AskQuestion(QuestionCard Q, Score s)
         {
@@ -100,6 +100,16 @@ namespace Fragesport_File
         public void AddTextQuestion(QuestionCard q) 
         {
             DBH.AddTextQuestion(q.Question, q.Answer);
+        }
+
+        public QuestionCard GetQuestions(int id) 
+        {
+            return (DBH.GetQuestion(id));
+        }
+
+        public void EditQuestion(QuestionCard question) 
+        {
+            DBH.EditQuestion(question);
         }
     }
 }

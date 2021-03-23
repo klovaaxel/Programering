@@ -193,7 +193,7 @@ namespace Fragesport_File
                 selectCommand.Connection = db;
 
                 // Use parameterized query to prevent SQL injection attacks
-                selectCommand.CommandText = "SELECT * FROM question WHERE id=@id";
+                selectCommand.CommandText = "SELECT * FROM questions WHERE id=@id";
 
                 selectCommand.Parameters.AddWithValue("@id", id);
 
